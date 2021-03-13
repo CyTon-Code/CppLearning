@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/run/media/cytoncode/GIT/CppLearning/main.cpp
+plugin.h
+/run/media/cytoncode/GIT/CppLearning/plugin.h
+string
+/run/media/cytoncode/GIT/CppLearning/string
+list
+/run/media/cytoncode/GIT/CppLearning/list
+syntax/pascal.h
+/run/media/cytoncode/GIT/CppLearning/syntax/pascal.h
+syntax/python.h
+/run/media/cytoncode/GIT/CppLearning/syntax/python.h
+syntax/python/for_count.h
+/run/media/cytoncode/GIT/CppLearning/syntax/python/for_count.h
+
+/run/media/cytoncode/GIT/CppLearning/plugin.h
+iostream
+-
+
+/run/media/cytoncode/GIT/CppLearning/syntax/pascal.h
+pascal/begin.h
+/run/media/cytoncode/GIT/CppLearning/syntax/pascal/begin.h
+
+/run/media/cytoncode/GIT/CppLearning/syntax/pascal/begin.h
+
+/run/media/cytoncode/GIT/CppLearning/syntax/python.h
+python/for_iter.h
+/run/media/cytoncode/GIT/CppLearning/syntax/python/for_iter.h
+python/for_count.h
+/run/media/cytoncode/GIT/CppLearning/syntax/python/for_count.h
+
+/run/media/cytoncode/GIT/CppLearning/syntax/python/for_count.h
+
+/run/media/cytoncode/GIT/CppLearning/syntax/python/for_iter.h
+

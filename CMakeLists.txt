@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 3.17)
+project(CppLearning)
+
+set(CMAKE_CXX_STANDARD 20)
+
+add_executable(CppLearning main.cpp)
+add_executable(CMakeLists CMakeLists.txt)
+add_executable(README README.md)
+add_executable(main main.cpp)
+add_executable(plugin plugin.h)
+add_executable(pascal syntax/pascal.h)
+add_executable(python syntax/python.h)
+add_executable(len counter/len.h)
+add_executable(for_count syntax/python/for_count.h)
+add_executable(for_iter syntax/python/for_iter.h)
+add_executable(begin syntax/pascal/begin.h)

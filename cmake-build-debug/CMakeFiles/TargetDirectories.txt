@@ -1,0 +1,13 @@
+/run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles/edit_cache.dir
+/run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles/begin.dir
+/run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles/README.dir
+/run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles/CMakeLists.dir
+/run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles/len.dir
+/run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles/CppLearning.dir
+/run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles/plugin.dir
+/run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles/for_count.dir
+/run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles/python.dir
+/run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles/main.dir
+/run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles/pascal.dir
+/run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles/for_iter.dir
