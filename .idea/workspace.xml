@@ -22,29 +22,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83190fdc-9514-4a5e-a750-6ae6b91846a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/CppLearning.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator-enh.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.5/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.5/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/a.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/counter/len.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/syntax/pascal.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/syntax/pascal/begin.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/syntax/python.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/syntax/python/for_count.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/syntax/python/for_iter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/syntax/pascal/begin.h" beforeDir="false" afterPath="$PROJECT_DIR$/syntax/pascal/begin.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/syntax/python.h" beforeDir="false" afterPath="$PROJECT_DIR$/syntax/python.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/syntax/python/for_count.h" beforeDir="false" afterPath="$PROJECT_DIR$/syntax/python/for_count.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/syntax/python/for_iter.h" beforeDir="false" afterPath="$PROJECT_DIR$/syntax/python/for_iter.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,11 +162,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615637438341</updated>
-      <workItem from="1615637552369" duration="5434000" />
+      <workItem from="1615637552369" duration="8034000" />
     </task>
+    <task id="LOCAL-00001" summary="add all">
+      <created>1615643473714</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1615643473715</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add all" />
+    <option name="LAST_COMMIT_MESSAGE" value="add all" />
   </component>
 </project>
