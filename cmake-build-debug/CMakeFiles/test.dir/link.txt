@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/test.dir/test_import_cpp_in_python/test.cpp.o  -o test 
