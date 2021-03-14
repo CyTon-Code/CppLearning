@@ -16,3 +16,5 @@ add_executable(for_iter syntax/python/for_iter.h)
 add_executable(begin syntax/pascal/begin.h)
 add_executable(test_import_cpp_in_python test_import_cpp_in_python/)
 add_executable(test test_import_cpp_in_python/test.cpp)
+
+add_executable(мусор мусор)

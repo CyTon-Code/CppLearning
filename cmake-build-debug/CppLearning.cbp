@@ -647,9 +647,6 @@
 		<Unit filename="/run/media/cytoncode/GIT/CppLearning/test_import_cpp_in_python/test.cpp">
 			<Option target="test"/>
 		</Unit>
-		<Unit filename="/run/media/cytoncode/GIT/CppLearning/test_import_cpp_in_python/test.h">
-			<Option target="test"/>
-		</Unit>
 		<Unit filename="/run/media/cytoncode/GIT/CppLearning/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
