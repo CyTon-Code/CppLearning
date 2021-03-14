@@ -7,10 +7,6 @@
 #IncludeRegexTransform: 
 
 /run/media/cytoncode/GIT/CppLearning/main.cpp
-iostream
--
-list
--
 plugin.h
 /run/media/cytoncode/GIT/CppLearning/plugin.h
 syntax/pascal.h
