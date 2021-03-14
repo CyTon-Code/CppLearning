@@ -131,6 +131,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named test
+
+# Build rule for target.
+test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test
+.PHONY : test
+
+# fast build rule for target.
+test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
+.PHONY : test/fast
+
+#=============================================================================
+# Target rules for targets named test_import_cpp_in_python
+
+# Build rule for target.
+test_import_cpp_in_python: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_import_cpp_in_python
+.PHONY : test_import_cpp_in_python
+
+# fast build rule for target.
+test_import_cpp_in_python/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_import_cpp_in_python.dir/build.make CMakeFiles/test_import_cpp_in_python.dir/build
+.PHONY : test_import_cpp_in_python/fast
+
+#=============================================================================
 # Target rules for targets named begin
 
 # Build rule for target.
@@ -303,6 +329,33 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+test_import_cpp_in_python/test.o: test_import_cpp_in_python/test.cpp.o
+
+.PHONY : test_import_cpp_in_python/test.o
+
+# target to build an object file
+test_import_cpp_in_python/test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test_import_cpp_in_python/test.cpp.o
+.PHONY : test_import_cpp_in_python/test.cpp.o
+
+test_import_cpp_in_python/test.i: test_import_cpp_in_python/test.cpp.i
+
+.PHONY : test_import_cpp_in_python/test.i
+
+# target to preprocess a source file
+test_import_cpp_in_python/test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test_import_cpp_in_python/test.cpp.i
+.PHONY : test_import_cpp_in_python/test.cpp.i
+
+test_import_cpp_in_python/test.s: test_import_cpp_in_python/test.cpp.s
+
+.PHONY : test_import_cpp_in_python/test.s
+
+# target to generate assembly for a file
+test_import_cpp_in_python/test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test_import_cpp_in_python/test.cpp.s
+.PHONY : test_import_cpp_in_python/test.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -322,9 +375,14 @@ help:
 	@echo "... pascal"
 	@echo "... plugin"
 	@echo "... python"
+	@echo "... test"
+	@echo "... test_import_cpp_in_python"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... test_import_cpp_in_python/test.o"
+	@echo "... test_import_cpp_in_python/test.i"
+	@echo "... test_import_cpp_in_python/test.s"
 .PHONY : help
 
 

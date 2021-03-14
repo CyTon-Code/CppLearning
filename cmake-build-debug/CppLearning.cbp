@@ -37,6 +37,94 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="test">
+				<Option output="/run/media/cytoncode/GIT/CppLearning/cmake-build-debug/test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/run/media/cytoncode/GIT/CppLearning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test/fast">
+				<Option output="/run/media/cytoncode/GIT/CppLearning/cmake-build-debug/test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/run/media/cytoncode/GIT/CppLearning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 test/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_import_cpp_in_python">
+				<Option output="/run/media/cytoncode/GIT/CppLearning/cmake-build-debug/test_import_cpp_in_python" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/run/media/cytoncode/GIT/CppLearning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_import_cpp_in_python"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_import_cpp_in_python/fast">
+				<Option output="/run/media/cytoncode/GIT/CppLearning/cmake-build-debug/test_import_cpp_in_python" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/run/media/cytoncode/GIT/CppLearning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_import_cpp_in_python/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="begin">
 				<Option output="/run/media/cytoncode/GIT/CppLearning/cmake-build-debug/begin" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/run/media/cytoncode/GIT/CppLearning/cmake-build-debug"/>
@@ -522,6 +610,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/run/media/cytoncode/GIT/CppLearning">
+			<Option target="test_import_cpp_in_python"/>
+		</Unit>
 		<Unit filename="/run/media/cytoncode/GIT/CppLearning/CMakeLists.txt">
 			<Option target="CMakeLists"/>
 		</Unit>
@@ -552,6 +643,12 @@
 		</Unit>
 		<Unit filename="/run/media/cytoncode/GIT/CppLearning/syntax/python/for_iter.h">
 			<Option target="for_iter"/>
+		</Unit>
+		<Unit filename="/run/media/cytoncode/GIT/CppLearning/test_import_cpp_in_python/test.cpp">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/run/media/cytoncode/GIT/CppLearning/test_import_cpp_in_python/test.h">
+			<Option target="test"/>
 		</Unit>
 		<Unit filename="/run/media/cytoncode/GIT/CppLearning/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
