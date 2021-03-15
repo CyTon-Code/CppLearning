@@ -1,9 +1,9 @@
 //
-// Created by cyton code on 13.03.2021.
+// Created by cyton_code on 13.03.2021.
 //
 
-#ifndef CPPLEARNING_BEGIN_H
-#define CPPLEARNING_BEGIN_H
+#ifndef CPP_LEARNING_BEGIN_H
+#define CPP_LEARNING_BEGIN_H
 /**
  * count - схож на start - счотчик.
 <BR>
@@ -20,4 +20,4 @@
 
 #define END process = "Finished"; ECHO; return result
 
-#endif //CPPLEARNING_BEGIN_H
+#endif //CPP_LEARNING_BEGIN_H

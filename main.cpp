@@ -4,7 +4,7 @@
 
 #include "plugin.h"
 #include "lib/syntax/pascal.h"
-//#include "lib/syntax/str/str.h"
+#include "lib/syntax/str/str.h"
 #include "lib/scripts/len/len.h"
 
 MAIN {

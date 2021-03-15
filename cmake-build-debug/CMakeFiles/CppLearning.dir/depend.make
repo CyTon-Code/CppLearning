@@ -7,6 +7,7 @@ CMakeFiles/CppLearning.dir/main.cpp.o: ../lib/scripts/len/len_new.h
 CMakeFiles/CppLearning.dir/main.cpp.o: ../lib/scripts/len/len_str.h
 CMakeFiles/CppLearning.dir/main.cpp.o: ../lib/syntax/pascal.h
 CMakeFiles/CppLearning.dir/main.cpp.o: ../lib/syntax/pascal/begin.h
+CMakeFiles/CppLearning.dir/main.cpp.o: ../lib/syntax/pascal/new_var.h
 CMakeFiles/CppLearning.dir/main.cpp.o: ../lib/syntax/python.h
 CMakeFiles/CppLearning.dir/main.cpp.o: ../lib/syntax/python/count.h
 CMakeFiles/CppLearning.dir/main.cpp.o: ../lib/syntax/python/for_count.h

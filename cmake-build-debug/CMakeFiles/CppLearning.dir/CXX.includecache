@@ -29,10 +29,14 @@ utility
 /run/media/cytoncode/GIT/CppLearning/lib/syntax/pascal.h
 pascal/begin.h
 /run/media/cytoncode/GIT/CppLearning/lib/syntax/pascal/begin.h
-../scripts/len/len.h
-/run/media/cytoncode/GIT/CppLearning/lib/scripts/len/len.h
+pascal/new_var.h
+/run/media/cytoncode/GIT/CppLearning/lib/syntax/pascal/new_var.h
 
 /run/media/cytoncode/GIT/CppLearning/lib/syntax/pascal/begin.h
+
+/run/media/cytoncode/GIT/CppLearning/lib/syntax/pascal/new_var.h
+../../syntax/str/str.h
+/run/media/cytoncode/GIT/CppLearning/lib/syntax/str/str.h
 
 /run/media/cytoncode/GIT/CppLearning/lib/syntax/python.h
 python/for_iter.h
@@ -61,6 +65,8 @@ plugin.h
 /run/media/cytoncode/GIT/CppLearning/plugin.h
 lib/syntax/pascal.h
 /run/media/cytoncode/GIT/CppLearning/lib/syntax/pascal.h
+lib/syntax/str/str.h
+/run/media/cytoncode/GIT/CppLearning/lib/syntax/str/str.h
 lib/scripts/len/len.h
 /run/media/cytoncode/GIT/CppLearning/lib/scripts/len/len.h
 

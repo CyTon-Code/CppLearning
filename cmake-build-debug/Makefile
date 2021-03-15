@@ -131,6 +131,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named begin
+
+# Build rule for target.
+begin: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 begin
+.PHONY : begin
+
+# fast build rule for target.
+begin/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/begin.dir/build.make CMakeFiles/begin.dir/build
+.PHONY : begin/fast
+
+#=============================================================================
+# Target rules for targets named echo
+
+# Build rule for target.
+echo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 echo
+.PHONY : echo
+
+# fast build rule for target.
+echo/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo.dir/build.make CMakeFiles/echo.dir/build
+.PHONY : echo/fast
+
+#=============================================================================
 # Target rules for targets named plugin
 
 # Build rule for target.
@@ -274,6 +300,19 @@ str/fast:
 .PHONY : str/fast
 
 #=============================================================================
+# Target rules for targets named new_var
+
+# Build rule for target.
+new_var: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 new_var
+.PHONY : new_var
+
+# fast build rule for target.
+new_var/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_var.dir/build.make CMakeFiles/new_var.dir/build
+.PHONY : new_var/fast
+
+#=============================================================================
 # Target rules for targets named len_new
 
 # Build rule for target.
@@ -393,6 +432,8 @@ help:
 	@echo "... CMakeLists"
 	@echo "... CppLearning"
 	@echo "... README"
+	@echo "... begin"
+	@echo "... echo"
 	@echo "... for_iter"
 	@echo "... len"
 	@echo "... len_char"
@@ -401,6 +442,7 @@ help:
 	@echo "... len_str"
 	@echo "... main"
 	@echo "... main_1"
+	@echo "... new_var"
 	@echo "... pascal"
 	@echo "... plugin"
 	@echo "... python"

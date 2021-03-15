@@ -6,12 +6,8 @@
 #define CPP_LEARNING_PASCAL_H
 
 #include "pascal/begin.h"
-#include "../scripts/len/len.h"
-
-#define SMS str name = "Program", process = "Started"
+#include "pascal/new_var.h"
 
 #define ECHO cout << "[" + name + " " + process + "]" << endl
-
-#define MAIN int main(int argc, char *args[])
 
 #endif //CPP_LEARNING_PASCAL_H
