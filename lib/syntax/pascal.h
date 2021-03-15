@@ -1,11 +1,12 @@
 //
-// Created by cytoncode on 13.03.2021.
+// Created by cyton_code on 13.03.2021.
 //
 
-#ifndef CPPLEARNING_PASCAL_H
-#define CPPLEARNING_PASCAL_H
+#ifndef CPP_LEARNING_PASCAL_H
+#define CPP_LEARNING_PASCAL_H
 
 #include "pascal/begin.h"
+#include "../scripts/len/len.h"
 
 #define SMS str name = "Program", process = "Started"
 
@@ -13,4 +14,4 @@
 
 #define MAIN int main(int argc, char *args[])
 
-#endif //CPPLEARNING_PASCAL_H
+#endif //CPP_LEARNING_PASCAL_H

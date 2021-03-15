@@ -2,26 +2,20 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="Cpp_Learning" targetName="word_cpp" />
       <config projectName="Cpp_Learning" targetName="README" />
+      <config projectName="Cpp_Learning" targetName="len_len" />
       <config projectName="Cpp_Learning" targetName="len" />
-      <config projectName="Cpp_Learning" targetName="for_iter" />
-      <config projectName="Cpp_Learning" targetName="test" />
       <config projectName="Cpp_Learning" targetName="main" />
-      <config projectName="Cpp_Learning" targetName="for_count" />
-      <config projectName="Cpp_Learning" targetName="for" />
-      <config projectName="Cpp_Learning" targetName="tmf" />
-      <config projectName="Cpp_Learning" targetName="def" />
-      <config projectName="Cpp_Learning" targetName="test_import_cpp_in_python" />
+      <config projectName="Cpp_Learning" targetName="len_new" />
+      <config projectName="Cpp_Learning" targetName="len_char" />
+      <config projectName="Cpp_Learning" targetName="str" />
+      <config projectName="Cpp_Learning" targetName="main_1" />
       <config projectName="Cpp_Learning" targetName="CMakeLists" />
       <config projectName="Cpp_Learning" targetName="pascal" />
       <config projectName="Cpp_Learning" targetName="plugin" />
-      <config projectName="Cpp_Learning" targetName="scripts" />
-      <config projectName="Cpp_Learning" targetName="begin" />
       <config projectName="Cpp_Learning" targetName="CppLearning" />
       <config projectName="Cpp_Learning" targetName="python" />
-      <config projectName="Cpp_Learning" targetName="hello" />
-      <config projectName="Cpp_Learning" targetName="code" />
+      <config projectName="Cpp_Learning" targetName="len_str" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -31,25 +25,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83190fdc-9514-4a5e-a750-6ae6b91846a5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/scripts/len/len.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/scripts/len/len_char.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/scripts/len/len_new.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/scripts/len/len_str.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/syntax/python/count.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README_1.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppLearning.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppLearning.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppLearning.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppLearning.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppLearning.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppLearning.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppLearning.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppLearning.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CppLearning" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CppLearning" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/temp/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/code.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/temp/code.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/def.h" beforeDir="false" afterPath="$PROJECT_DIR$/temp/def.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/for" beforeDir="false" afterPath="$PROJECT_DIR$/temp/for" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/for.h" beforeDir="false" afterPath="$PROJECT_DIR$/temp/for.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/for.h.gch" beforeDir="false" afterPath="$PROJECT_DIR$/temp/for.h.gch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/scripts/echo/echo.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/scripts/echo/echo.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/syntax/string/string.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/syntax/string/string.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/tmf.h" beforeDir="false" afterPath="$PROJECT_DIR$/temp/tmf.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/word_cpp.h" beforeDir="false" afterPath="$PROJECT_DIR$/temp/word_cpp.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/советы" beforeDir="false" afterPath="$PROJECT_DIR$/temp/советы" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main_1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/scripts/counter/len.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/syntax/pascal.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/syntax/pascal.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/syntax/python.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/syntax/python.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/syntax/string/string.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/syntax/str/str.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,47 +132,37 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="begin" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Cpp_Learning" TARGET_NAME="begin" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Cpp_Learning" RUN_TARGET_NAME="begin">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="code" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Cpp_Learning" TARGET_NAME="code" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Cpp_Learning" RUN_TARGET_NAME="code">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="def" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Cpp_Learning" TARGET_NAME="def" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Cpp_Learning" RUN_TARGET_NAME="def">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="for" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Cpp_Learning" TARGET_NAME="for" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Cpp_Learning" RUN_TARGET_NAME="for">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="for_count" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Cpp_Learning" TARGET_NAME="for_count" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Cpp_Learning" RUN_TARGET_NAME="for_count">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="for_iter" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Cpp_Learning" TARGET_NAME="for_iter" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Cpp_Learning" RUN_TARGET_NAME="for_iter">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="hello" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Cpp_Learning" TARGET_NAME="hello" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Cpp_Learning" RUN_TARGET_NAME="hello">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="len" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Cpp_Learning" TARGET_NAME="len" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Cpp_Learning" RUN_TARGET_NAME="len">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="len_char" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Cpp_Learning" TARGET_NAME="len_char" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Cpp_Learning" RUN_TARGET_NAME="len_char">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="len_len" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Cpp_Learning" TARGET_NAME="len_len" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Cpp_Learning" RUN_TARGET_NAME="len_len">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="len_new" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Cpp_Learning" TARGET_NAME="len_new" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Cpp_Learning" RUN_TARGET_NAME="len_new">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="len_str" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Cpp_Learning" TARGET_NAME="len_str" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Cpp_Learning" RUN_TARGET_NAME="len_str">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Cpp_Learning" TARGET_NAME="main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Cpp_Learning" RUN_TARGET_NAME="main">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main_1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Cpp_Learning" TARGET_NAME="main_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Cpp_Learning" RUN_TARGET_NAME="main_1">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -192,27 +182,7 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="scripts" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Cpp_Learning" TARGET_NAME="scripts" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Cpp_Learning" RUN_TARGET_NAME="scripts">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Cpp_Learning" TARGET_NAME="test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Cpp_Learning" RUN_TARGET_NAME="test">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test_import_cpp_in_python" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Cpp_Learning" TARGET_NAME="test_import_cpp_in_python" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Cpp_Learning" RUN_TARGET_NAME="test_import_cpp_in_python">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="tmf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Cpp_Learning" TARGET_NAME="tmf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Cpp_Learning" RUN_TARGET_NAME="tmf">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="word_cpp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Cpp_Learning" TARGET_NAME="word_cpp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Cpp_Learning" RUN_TARGET_NAME="word_cpp">
+    <configuration name="str" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Cpp_Learning" TARGET_NAME="str" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Cpp_Learning" RUN_TARGET_NAME="str">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -223,26 +193,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="CMake Application.begin" />
       <item itemvalue="CMake Application.CMakeLists" />
-      <item itemvalue="CMake Application.code" />
       <item itemvalue="CMake Application.CppLearning" />
-      <item itemvalue="CMake Application.def" />
-      <item itemvalue="CMake Application.for" />
-      <item itemvalue="CMake Application.for_count" />
-      <item itemvalue="CMake Application.for_iter" />
-      <item itemvalue="CMake Application.hello" />
       <item itemvalue="CMake Application.len" />
+      <item itemvalue="CMake Application.len_char" />
+      <item itemvalue="CMake Application.len_len" />
+      <item itemvalue="CMake Application.len_new" />
+      <item itemvalue="CMake Application.len_str" />
       <item itemvalue="CMake Application.main" />
+      <item itemvalue="CMake Application.main_1" />
       <item itemvalue="CMake Application.pascal" />
       <item itemvalue="CMake Application.plugin" />
       <item itemvalue="CMake Application.python" />
       <item itemvalue="CMake Application.README" />
-      <item itemvalue="CMake Application.scripts" />
-      <item itemvalue="CMake Application.test" />
-      <item itemvalue="CMake Application.test_import_cpp_in_python" />
-      <item itemvalue="CMake Application.tmf" />
-      <item itemvalue="CMake Application.word_cpp" />
+      <item itemvalue="CMake Application.str" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -261,7 +225,7 @@
       <workItem from="1615762573802" duration="95000" />
       <workItem from="1615762780576" duration="1621000" />
       <workItem from="1615803770715" duration="2533000" />
-      <workItem from="1615806524242" duration="504000" />
+      <workItem from="1615806524242" duration="5216000" />
     </task>
     <task id="LOCAL-00001" summary="add all">
       <created>1615643473714</created>
@@ -340,7 +304,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615806237439</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="udp and del all">
+      <created>1615807077367</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1615807077367</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -365,6 +336,7 @@
     <MESSAGE value="add and upd all" />
     <MESSAGE value="upd file" />
     <MESSAGE value="upd all" />
-    <option name="LAST_COMMIT_MESSAGE" value="upd all" />
+    <MESSAGE value="udp and del all" />
+    <option name="LAST_COMMIT_MESSAGE" value="udp and del all" />
   </component>
 </project>

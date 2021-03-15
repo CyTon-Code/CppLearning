@@ -2,8 +2,8 @@
 // Created by cyton_code on 15.03.2021.
 //
 
-#ifndef CPP_LEARNING_STRING_H
-#define CPP_LEARNING_STRING_H
+#ifndef CPP_LEARNING_STR_H
+#define CPP_LEARNING_STR_H
 
 
 #define str std::string
@@ -16,4 +16,4 @@
 typedef const char *String;
 typedef char *string;
 
-#endif //CPP_LEARNING_STRING_H
+#endif //CPP_LEARNING_STR_H
