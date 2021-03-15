@@ -5,7 +5,7 @@
 #ifndef CPP_LEARNING_LEN_STR_H
 #define CPP_LEARNING_LEN_STR_H
 
-#include "../../syntax/python.h"
+#include "../../../syntax/python.h"
 
 template<class str_type>
 int len_str(str_type args) {

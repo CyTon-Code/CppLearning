@@ -5,7 +5,7 @@
 #ifndef CPP_LEARNING_LEN_NEW_H
 #define CPP_LEARNING_LEN_NEW_H
 
-#include "../../syntax/str/str.h"
+#include "../../../syntax/str/str.h"
 
 template<class string_type>
 int len_char(string_type);

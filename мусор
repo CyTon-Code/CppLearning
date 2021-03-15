@@ -60,3 +60,28 @@ MAIN {
 
     END;  // нужен для культурного завершения функции
 }
+
+
+
+
+BEGIN;  // нужен для хорошей работы всей функции.
+str text = "Hello, world!";
+int n = len(text);
+cout << n << endl;
+
+COUNT(n) {
+        cout << text[i];
+}
+cout << endl;
+
+END;  // нужен для культурного завершения функции
+
+
+COUNT(argc) {
+        cout << args[i];
+}
+
+
+
+
+

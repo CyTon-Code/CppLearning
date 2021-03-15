@@ -131,32 +131,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named begin
-
-# Build rule for target.
-begin: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 begin
-.PHONY : begin
-
-# fast build rule for target.
-begin/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/begin.dir/build.make CMakeFiles/begin.dir/build
-.PHONY : begin/fast
-
-#=============================================================================
-# Target rules for targets named echo
-
-# Build rule for target.
-echo: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 echo
-.PHONY : echo
-
-# fast build rule for target.
-echo/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo.dir/build.make CMakeFiles/echo.dir/build
-.PHONY : echo/fast
-
-#=============================================================================
 # Target rules for targets named plugin
 
 # Build rule for target.
@@ -168,45 +142,6 @@ plugin: cmake_check_build_system
 plugin/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/plugin.dir/build.make CMakeFiles/plugin.dir/build
 .PHONY : plugin/fast
-
-#=============================================================================
-# Target rules for targets named CMakeLists
-
-# Build rule for target.
-CMakeLists: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeLists
-.PHONY : CMakeLists
-
-# fast build rule for target.
-CMakeLists/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CMakeLists.dir/build.make CMakeFiles/CMakeLists.dir/build
-.PHONY : CMakeLists/fast
-
-#=============================================================================
-# Target rules for targets named len
-
-# Build rule for target.
-len: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 len
-.PHONY : len
-
-# fast build rule for target.
-len/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/len.dir/build.make CMakeFiles/len.dir/build
-.PHONY : len/fast
-
-#=============================================================================
-# Target rules for targets named len_str
-
-# Build rule for target.
-len_str: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 len_str
-.PHONY : len_str
-
-# fast build rule for target.
-len_str/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/len_str.dir/build.make CMakeFiles/len_str.dir/build
-.PHONY : len_str/fast
 
 #=============================================================================
 # Target rules for targets named CppLearning
@@ -222,30 +157,17 @@ CppLearning/fast:
 .PHONY : CppLearning/fast
 
 #=============================================================================
-# Target rules for targets named for_iter
+# Target rules for targets named CMakeLists
 
 # Build rule for target.
-for_iter: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 for_iter
-.PHONY : for_iter
+CMakeLists: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeLists
+.PHONY : CMakeLists
 
 # fast build rule for target.
-for_iter/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/for_iter.dir/build.make CMakeFiles/for_iter.dir/build
-.PHONY : for_iter/fast
-
-#=============================================================================
-# Target rules for targets named main_1
-
-# Build rule for target.
-main_1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main_1
-.PHONY : main_1
-
-# fast build rule for target.
-main_1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_1.dir/build.make CMakeFiles/main_1.dir/build
-.PHONY : main_1/fast
+CMakeLists/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CMakeLists.dir/build.make CMakeFiles/CMakeLists.dir/build
+.PHONY : CMakeLists/fast
 
 #=============================================================================
 # Target rules for targets named main
@@ -261,71 +183,6 @@ main/fast:
 .PHONY : main/fast
 
 #=============================================================================
-# Target rules for targets named pascal
-
-# Build rule for target.
-pascal: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pascal
-.PHONY : pascal
-
-# fast build rule for target.
-pascal/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pascal.dir/build.make CMakeFiles/pascal.dir/build
-.PHONY : pascal/fast
-
-#=============================================================================
-# Target rules for targets named python
-
-# Build rule for target.
-python: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 python
-.PHONY : python
-
-# fast build rule for target.
-python/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/python.dir/build.make CMakeFiles/python.dir/build
-.PHONY : python/fast
-
-#=============================================================================
-# Target rules for targets named str
-
-# Build rule for target.
-str: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 str
-.PHONY : str
-
-# fast build rule for target.
-str/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/str.dir/build.make CMakeFiles/str.dir/build
-.PHONY : str/fast
-
-#=============================================================================
-# Target rules for targets named new_var
-
-# Build rule for target.
-new_var: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 new_var
-.PHONY : new_var
-
-# fast build rule for target.
-new_var/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_var.dir/build.make CMakeFiles/new_var.dir/build
-.PHONY : new_var/fast
-
-#=============================================================================
-# Target rules for targets named len_new
-
-# Build rule for target.
-len_new: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 len_new
-.PHONY : len_new
-
-# fast build rule for target.
-len_new/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/len_new.dir/build.make CMakeFiles/len_new.dir/build
-.PHONY : len_new/fast
-
-#=============================================================================
 # Target rules for targets named README
 
 # Build rule for target.
@@ -337,32 +194,6 @@ README: cmake_check_build_system
 README/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/README.dir/build.make CMakeFiles/README.dir/build
 .PHONY : README/fast
-
-#=============================================================================
-# Target rules for targets named len_char
-
-# Build rule for target.
-len_char: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 len_char
-.PHONY : len_char
-
-# fast build rule for target.
-len_char/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/len_char.dir/build.make CMakeFiles/len_char.dir/build
-.PHONY : len_char/fast
-
-#=============================================================================
-# Target rules for targets named len_len
-
-# Build rule for target.
-len_len: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 len_len
-.PHONY : len_len
-
-# fast build rule for target.
-len_len/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/len_len.dir/build.make CMakeFiles/len_len.dir/build
-.PHONY : len_len/fast
 
 main.o: main.cpp.o
 
@@ -394,33 +225,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-main_1.o: main_1.cpp.o
-
-.PHONY : main_1.o
-
-# target to build an object file
-main_1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_1.dir/build.make CMakeFiles/main_1.dir/main_1.cpp.o
-.PHONY : main_1.cpp.o
-
-main_1.i: main_1.cpp.i
-
-.PHONY : main_1.i
-
-# target to preprocess a source file
-main_1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_1.dir/build.make CMakeFiles/main_1.dir/main_1.cpp.i
-.PHONY : main_1.cpp.i
-
-main_1.s: main_1.cpp.s
-
-.PHONY : main_1.s
-
-# target to generate assembly for a file
-main_1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_1.dir/build.make CMakeFiles/main_1.dir/main_1.cpp.s
-.PHONY : main_1.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -432,27 +236,11 @@ help:
 	@echo "... CMakeLists"
 	@echo "... CppLearning"
 	@echo "... README"
-	@echo "... begin"
-	@echo "... echo"
-	@echo "... for_iter"
-	@echo "... len"
-	@echo "... len_char"
-	@echo "... len_len"
-	@echo "... len_new"
-	@echo "... len_str"
 	@echo "... main"
-	@echo "... main_1"
-	@echo "... new_var"
-	@echo "... pascal"
 	@echo "... plugin"
-	@echo "... python"
-	@echo "... str"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... main_1.o"
-	@echo "... main_1.i"
-	@echo "... main_1.s"
 .PHONY : help
 
 
