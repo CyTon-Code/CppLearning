@@ -1,4 +1,4 @@
-#include "echo.h"
+#include "../../syntax/echo.h"
 
 
 int main(int n, String args[])

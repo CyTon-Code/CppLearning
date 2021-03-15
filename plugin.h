@@ -3,7 +3,8 @@
 
 #include <iostream>
 
-using std::cout, std::endl, std::cin;
-
+using std::cout;
+using std::endl;
+using std::cin;
 
 #endif // plugin_h

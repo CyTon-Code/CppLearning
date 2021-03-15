@@ -3,24 +3,22 @@
 
 #define STR char*
 #define CONST const
-typedef const char* String;
+typedef const char *String;
 using namespace std;
 
-void print(String value)
-{
- int n = strlen(value);
- for (int i = 0; i < n; i++) cout << value[i];
+void print(String value) {
+    int n = strlen(value);
+    for (int i = 0; i < n; i++) cout << value[i];
 }
 
 
-int main(void)
-{
- String hello_world = "Hello, World!\n";
+int main() {
+    String hello_world = "Hello, World!\n";
 
- print(hello_world);
- print("Hello, World!\n");
+    print(hello_world);
+    print("Hello, World!\n");
 
- return 0;
+    return 0;
 }
 /*
 #include <iostream>
@@ -37,15 +35,13 @@ int main(void)
 //~ #define STR char*
 
 
-void sys(String arg)
-{
-	printf(arg);
-	char a;
+void sys(String arg) {
+    printf(arg);
+    char a;
     scanf("%c", &a);
 }
 
-int main(void)
-{
+int main(void) {
     String hello_world = "Hello, World!\n";
 
     print(hello_world);
@@ -53,11 +49,10 @@ int main(void)
 
     return 0;
 }
-void print(String value, ...)
-{
+
+void print(String value, ...) {
     int n = strlen(value);
-    for (int i = 0; i < n; i++)
-    {
+    for (int i = 0; i < n; i++) {
         printf("%c", value[i]);
     }
 }
@@ -65,11 +60,11 @@ void print(String value, ...)
 //~ #include <cstring>
 //~ int len(String value)
 //~ {
-	//~ int n = 0;
-	//~ while(value[n]!='\0')
-	//~ {
-		//~ n++;
-	//~ }
-	//~ return n;
+//~ int n = 0;
+//~ while(value[n]!='\0')
+//~ {
+//~ n++;
+//~ }
+//~ return n;
 //~ }
 

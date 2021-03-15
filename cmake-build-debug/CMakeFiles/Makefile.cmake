@@ -48,9 +48,13 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/hello.dir/DependInfo.cmake"
+  "CMakeFiles/def.dir/DependInfo.cmake"
+  "CMakeFiles/code.dir/DependInfo.cmake"
   "CMakeFiles/word_cpp.dir/DependInfo.cmake"
   "CMakeFiles/test.dir/DependInfo.cmake"
   "CMakeFiles/test_import_cpp_in_python.dir/DependInfo.cmake"
+  "CMakeFiles/scripts.dir/DependInfo.cmake"
   "CMakeFiles/begin.dir/DependInfo.cmake"
   "CMakeFiles/README.dir/DependInfo.cmake"
   "CMakeFiles/CMakeLists.dir/DependInfo.cmake"

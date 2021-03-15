@@ -10,6 +10,6 @@
 
 #define FOR FOR_ITER
 #define IN IN_ITER
-#define str std::string
-#define STR const std::string
+
+
 #endif //CPPLEARNING_PYTHON_H

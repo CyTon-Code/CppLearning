@@ -156,7 +156,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=CppLearning
+CMAKE_PROJECT_NAME:STATIC=Cpp_Learning
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -225,6 +225,12 @@ CppLearning_BINARY_DIR:STATIC=/run/media/cytoncode/GIT/CppLearning/cmake-build-d
 
 //Value Computed by CMake
 CppLearning_SOURCE_DIR:STATIC=/run/media/cytoncode/GIT/CppLearning
+
+//Value Computed by CMake
+Cpp_Learning_BINARY_DIR:STATIC=/run/media/cytoncode/GIT/CppLearning/cmake-build-debug
+
+//Value Computed by CMake
+Cpp_Learning_SOURCE_DIR:STATIC=/run/media/cytoncode/GIT/CppLearning
 
 //Path to a program.
 ProcessorCount_cmd_nproc:FILEPATH=/usr/bin/nproc
