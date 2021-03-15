@@ -6,6 +6,7 @@
 #define CPP_LEARNING_ECHO_H
 
 #include "../../syntax/str/str.h"
+#include "../list/len/len_array.h"
 
 int echo(int length, String args[]) {
     for (int index = 1; index < length; index++)
@@ -22,6 +23,17 @@ int echo(int length, const int array[]) {
         std::cout << array[index] << ' ';
 
     std::cout << std::endl;
+
+    return 0;
+}
+
+int echo(const int array[]) {
+    int length = len_array(array);
+
+    for (int index = 0; index < length; index++) {
+        cout << array[index] << " ";
+    }
+    cout << endl;
 
     return 0;
 }
