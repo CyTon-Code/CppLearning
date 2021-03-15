@@ -10,4 +10,5 @@ add_executable(main main.cpp)
 
 add_executable(plugin plugin.h)
 add_executable(sort_1 lib/scripts/list/sort/sort_1.h)
-add_executable(echo lib/scripts/list/echo/echo.h)
+add_executable(echo lib/scripts/echo/echo.h)
+add_executable(search lib/scripts/list/search/search.h)

@@ -131,6 +131,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named search
+
+# Build rule for target.
+search: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 search
+.PHONY : search
+
+# fast build rule for target.
+search/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/search.dir/build.make CMakeFiles/search.dir/build
+.PHONY : search/fast
+
+#=============================================================================
 # Target rules for targets named echo
 
 # Build rule for target.
@@ -265,6 +278,7 @@ help:
 	@echo "... echo"
 	@echo "... main"
 	@echo "... plugin"
+	@echo "... search"
 	@echo "... sort_1"
 	@echo "... main.o"
 	@echo "... main.i"

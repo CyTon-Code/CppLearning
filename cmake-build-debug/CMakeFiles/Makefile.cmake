@@ -48,6 +48,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/search.dir/DependInfo.cmake"
   "CMakeFiles/echo.dir/DependInfo.cmake"
   "CMakeFiles/plugin.dir/DependInfo.cmake"
   "CMakeFiles/sort_1.dir/DependInfo.cmake"

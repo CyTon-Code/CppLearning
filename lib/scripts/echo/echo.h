@@ -7,14 +7,23 @@
 
 #include "../../syntax/str/str.h"
 
-int echo(int n, String args[]) {
-    int i = 1;
-
-    while (i < n)
-        printf("%s ", args[i++]);
+int echo(int length, String args[]) {
+    for (int index = 1; index < length; index++)
+        printf("%s ", args[index++]);
 
     printf("\n");
 
     return 0;
 }
+
+int echo(int length, const int array[]) {
+    // Теперь, когда весь массив отсортирован - выводим его на экран
+    for (int index = 0; index < length; ++index)
+        std::cout << array[index] << ' ';
+
+    std::cout << std::endl;
+
+    return 0;
+}
+
 #endif //CPP_LEARNING_ECHO_H

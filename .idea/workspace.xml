@@ -4,6 +4,7 @@
     <generated>
       <config projectName="Cpp_Learning" targetName="README" />
       <config projectName="Cpp_Learning" targetName="echo" />
+      <config projectName="Cpp_Learning" targetName="search" />
       <config projectName="Cpp_Learning" targetName="CMakeLists" />
       <config projectName="Cpp_Learning" targetName="sort_1" />
       <config projectName="Cpp_Learning" targetName="plugin" />
@@ -18,22 +19,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83190fdc-9514-4a5e-a750-6ae6b91846a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/scripts/list/echo/echo.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppLearning.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppLearning.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppLearning.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppLearning.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppLearning.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppLearning.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppLearning.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppLearning.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CppLearning" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CppLearning" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/scripts/echo/echo.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/scripts/echo/echo.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/scripts/list/echo/echo.h" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/scripts/list/sort/sort_1.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/scripts/list/sort/sort_1.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Снимок экрана от 2021-03-10 23-39-43.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,14 +130,14 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sort_1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Cpp_Learning" TARGET_NAME="sort_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Cpp_Learning" RUN_TARGET_NAME="sort_1">
+    <configuration name="search" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Cpp_Learning" TARGET_NAME="search" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Cpp_Learning" RUN_TARGET_NAME="search">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="sort_1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Cpp_Learning" TARGET_NAME="sort_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Cpp_Learning" RUN_TARGET_NAME="sort_1">
       <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
@@ -149,6 +147,7 @@
       <item itemvalue="CMake Application.main" />
       <item itemvalue="CMake Application.plugin" />
       <item itemvalue="CMake Application.README" />
+      <item itemvalue="CMake Application.search" />
       <item itemvalue="CMake Application.sort_1" />
     </list>
   </component>
@@ -169,7 +168,9 @@
       <workItem from="1615762780576" duration="1621000" />
       <workItem from="1615803770715" duration="2533000" />
       <workItem from="1615806524242" duration="6164000" />
-      <workItem from="1615832367687" duration="2166000" />
+      <workItem from="1615832367687" duration="2970000" />
+      <workItem from="1615838183271" duration="417000" />
+      <workItem from="1615841851931" duration="781000" />
     </task>
     <task id="LOCAL-00001" summary="add all">
       <created>1615643473714</created>
@@ -283,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615834010107</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="upd all">
+      <created>1615834631682</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1615834631682</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

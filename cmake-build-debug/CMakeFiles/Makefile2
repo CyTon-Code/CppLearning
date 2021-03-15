@@ -73,6 +73,7 @@ CMAKE_BINARY_DIR = /run/media/cytoncode/GIT/CppLearning/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/search.dir/all
 all: CMakeFiles/echo.dir/all
 all: CMakeFiles/plugin.dir/all
 all: CMakeFiles/sort_1.dir/all
@@ -89,6 +90,7 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/search.dir/clean
 clean: CMakeFiles/echo.dir/clean
 clean: CMakeFiles/plugin.dir/clean
 clean: CMakeFiles/sort_1.dir/clean
@@ -98,6 +100,33 @@ clean: CMakeFiles/main.dir/clean
 clean: CMakeFiles/README.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/search.dir
+
+# All Build rule for target.
+CMakeFiles/search.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/search.dir/build.make CMakeFiles/search.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/search.dir/build.make CMakeFiles/search.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles --progress-num= "Built target search"
+.PHONY : CMakeFiles/search.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/search.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/search.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/search.dir/rule
+
+# Convenience name for target.
+search: CMakeFiles/search.dir/rule
+
+.PHONY : search
+
+# clean rule for target.
+CMakeFiles/search.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/search.dir/build.make CMakeFiles/search.dir/clean
+.PHONY : CMakeFiles/search.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/echo.dir
