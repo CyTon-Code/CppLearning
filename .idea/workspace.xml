@@ -23,18 +23,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83190fdc-9514-4a5e-a750-6ae6b91846a5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppLearning.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppLearning.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CppLearning" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CppLearning" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/syntax/pascal.h" beforeDir="false" afterPath="$PROJECT_DIR$/syntax/pascal.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/syntax/pascal/begin.h" beforeDir="false" afterPath="$PROJECT_DIR$/syntax/pascal/begin.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/мусор" beforeDir="false" afterPath="$PROJECT_DIR$/мусор" afterDir="false" />
-    </list>
+    <list default="true" id="83190fdc-9514-4a5e-a750-6ae6b91846a5" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -212,7 +201,7 @@
       <workItem from="1615758230790" duration="2866000" />
       <workItem from="1615762573802" duration="95000" />
       <workItem from="1615762780576" duration="1621000" />
-      <workItem from="1615803770715" duration="644000" />
+      <workItem from="1615803770715" duration="949000" />
     </task>
     <task id="LOCAL-00001" summary="add all">
       <created>1615643473714</created>
@@ -263,7 +252,21 @@
       <option name="project" value="LOCAL" />
       <updated>1615762650073</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add and upd all">
+      <created>1615804802488</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1615804802488</updated>
+    </task>
+    <task id="LOCAL-00009" summary="upd file">
+      <created>1615804820967</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1615804820967</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,6 +289,8 @@
     <MESSAGE value="upd all" />
     <MESSAGE value="upd and add all" />
     <MESSAGE value="upd info" />
-    <option name="LAST_COMMIT_MESSAGE" value="upd info" />
+    <MESSAGE value="add and upd all" />
+    <MESSAGE value="upd file" />
+    <option name="LAST_COMMIT_MESSAGE" value="upd file" />
   </component>
 </project>
