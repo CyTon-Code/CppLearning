@@ -5,6 +5,7 @@
 /run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles/len.dir
 /run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles/len_str.dir
 /run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles/CppLearning.dir
+/run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles/for_iter.dir
 /run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles/main_1.dir
 /run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles/main.dir
 /run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles/pascal.dir

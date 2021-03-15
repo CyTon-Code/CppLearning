@@ -1,9 +1,9 @@
 //
-// Created by cytoncode on 13.03.2021.
+// Created by cyton_code on 13.03.2021.
 //
 
-#ifndef CPPLEARNING_PYTHON_H
-#define CPPLEARNING_PYTHON_H
+#ifndef CPP_LEARNING_PYTHON_H
+#define CPP_LEARNING_PYTHON_H
 
 #include "python/for_iter.h"
 #include "python/for_count.h"
@@ -13,4 +13,4 @@
 #define IN IN_ITER
 
 
-#endif //CPPLEARNING_PYTHON_H
+#endif //CPP_LEARNING_PYTHON_H

@@ -196,6 +196,19 @@ CppLearning/fast:
 .PHONY : CppLearning/fast
 
 #=============================================================================
+# Target rules for targets named for_iter
+
+# Build rule for target.
+for_iter: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 for_iter
+.PHONY : for_iter
+
+# fast build rule for target.
+for_iter/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/for_iter.dir/build.make CMakeFiles/for_iter.dir/build
+.PHONY : for_iter/fast
+
+#=============================================================================
 # Target rules for targets named main_1
 
 # Build rule for target.
@@ -380,6 +393,7 @@ help:
 	@echo "... CMakeLists"
 	@echo "... CppLearning"
 	@echo "... README"
+	@echo "... for_iter"
 	@echo "... len"
 	@echo "... len_char"
 	@echo "... len_len"

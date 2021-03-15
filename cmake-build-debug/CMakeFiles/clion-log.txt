@@ -8,6 +8,8 @@ CMake Error: Cannot determine link language for target "len".
 CMake Error: CMake can not determine linker language for target: len
 CMake Error: Cannot determine link language for target "len_str".
 CMake Error: CMake can not determine linker language for target: len_str
+CMake Error: Cannot determine link language for target "for_iter".
+CMake Error: CMake can not determine linker language for target: for_iter
 CMake Error: Cannot determine link language for target "pascal".
 CMake Error: CMake can not determine linker language for target: pascal
 CMake Error: Cannot determine link language for target "python".
