@@ -131,6 +131,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named echo
+
+# Build rule for target.
+echo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 echo
+.PHONY : echo
+
+# fast build rule for target.
+echo/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo.dir/build.make CMakeFiles/echo.dir/build
+.PHONY : echo/fast
+
+#=============================================================================
 # Target rules for targets named plugin
 
 # Build rule for target.
@@ -142,6 +155,19 @@ plugin: cmake_check_build_system
 plugin/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/plugin.dir/build.make CMakeFiles/plugin.dir/build
 .PHONY : plugin/fast
+
+#=============================================================================
+# Target rules for targets named sort_1
+
+# Build rule for target.
+sort_1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sort_1
+.PHONY : sort_1
+
+# fast build rule for target.
+sort_1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sort_1.dir/build.make CMakeFiles/sort_1.dir/build
+.PHONY : sort_1/fast
 
 #=============================================================================
 # Target rules for targets named CppLearning
@@ -236,8 +262,10 @@ help:
 	@echo "... CMakeLists"
 	@echo "... CppLearning"
 	@echo "... README"
+	@echo "... echo"
 	@echo "... main"
 	@echo "... plugin"
+	@echo "... sort_1"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

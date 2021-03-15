@@ -8,8 +8,11 @@
 #include <iostream>
 #include <algorithm> // для std::swap. В C++11 используйте заголовок <utility>
 #include "../search/search.h"
+#include "../echo/echo.h"
 
 void sort(const int length, int array[]/* = {30, 50, 20, 10, 40}*/) {
+    echo(length, array);
+
     // Перебираем каждый элемент массива (кроме последнего, он уже будет отсортирован к тому времени, когда мы до него доберемся)
     for (int startIndex = 0; startIndex < length - 1; ++startIndex) {
         // Ищем индекс наименьшего елемента.
@@ -19,10 +22,7 @@ void sort(const int length, int array[]/* = {30, 50, 20, 10, 40}*/) {
         // Меняем местами наше начальное наименьшее число с тем, которое мы обнаружили
         std::swap(array[startIndex], array[smallestIndex]);
     }
-
-    // Теперь, когда весь массив отсортирован - выводим его на экран
-    for (int index = 0; index < length; ++index)
-        std::cout << array[index] << ' ';
+    echo(length, array);
 }
 
 #endif //CPP_LEARNING_SORT_1_H

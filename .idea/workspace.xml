@@ -3,7 +3,9 @@
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
       <config projectName="Cpp_Learning" targetName="README" />
+      <config projectName="Cpp_Learning" targetName="echo" />
       <config projectName="Cpp_Learning" targetName="CMakeLists" />
+      <config projectName="Cpp_Learning" targetName="sort_1" />
       <config projectName="Cpp_Learning" targetName="plugin" />
       <config projectName="Cpp_Learning" targetName="main" />
       <config projectName="Cpp_Learning" targetName="CppLearning" />
@@ -16,8 +18,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83190fdc-9514-4a5e-a750-6ae6b91846a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/scripts/list/search/search.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/scripts/list/sort/sort_1.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/scripts/list/echo/echo.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppLearning.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppLearning.dir/CXX.includecache" afterDir="false" />
@@ -28,16 +29,11 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CppLearning" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CppLearning" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/scripts/len/len.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/scripts/list/len/len.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/scripts/len/len_char.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/scripts/list/len/len_char.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/scripts/len/len_new.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/scripts/list/len/len_new.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/scripts/len/len_str.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/scripts/list/len/len_str.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/scripts/list/sort/sort_1.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/scripts/list/sort/sort_1.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/мусор" beforeDir="false" afterPath="$PROJECT_DIR$/мусор" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,12 +117,22 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="echo" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Cpp_Learning" TARGET_NAME="echo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Cpp_Learning" RUN_TARGET_NAME="echo">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Cpp_Learning" TARGET_NAME="main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Cpp_Learning" RUN_TARGET_NAME="main">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="plugin" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Cpp_Learning" TARGET_NAME="plugin" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Cpp_Learning" RUN_TARGET_NAME="plugin">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sort_1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Cpp_Learning" TARGET_NAME="sort_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Cpp_Learning" RUN_TARGET_NAME="sort_1">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -139,9 +145,11 @@
     <list>
       <item itemvalue="CMake Application.CMakeLists" />
       <item itemvalue="CMake Application.CppLearning" />
+      <item itemvalue="CMake Application.echo" />
       <item itemvalue="CMake Application.main" />
       <item itemvalue="CMake Application.plugin" />
       <item itemvalue="CMake Application.README" />
+      <item itemvalue="CMake Application.sort_1" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -161,7 +169,7 @@
       <workItem from="1615762780576" duration="1621000" />
       <workItem from="1615803770715" duration="2533000" />
       <workItem from="1615806524242" duration="6164000" />
-      <workItem from="1615832367687" duration="1584000" />
+      <workItem from="1615832367687" duration="2166000" />
     </task>
     <task id="LOCAL-00001" summary="add all">
       <created>1615643473714</created>
@@ -268,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615812995069</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="upd all">
+      <created>1615834010106</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1615834010107</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,9 +307,9 @@
     <MESSAGE value="upd info" />
     <MESSAGE value="add and upd all" />
     <MESSAGE value="upd file" />
-    <MESSAGE value="upd all" />
     <MESSAGE value="udp and del all" />
     <MESSAGE value="udp all" />
-    <option name="LAST_COMMIT_MESSAGE" value="udp all" />
+    <MESSAGE value="upd all" />
+    <option name="LAST_COMMIT_MESSAGE" value="upd all" />
   </component>
 </project>

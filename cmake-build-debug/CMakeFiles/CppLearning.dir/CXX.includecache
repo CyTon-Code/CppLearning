@@ -6,5 +6,33 @@
 
 #IncludeRegexTransform: 
 
+/run/media/cytoncode/GIT/CppLearning/lib/scripts/list/echo/echo.h
+
+/run/media/cytoncode/GIT/CppLearning/lib/scripts/list/search/search.h
+
+/run/media/cytoncode/GIT/CppLearning/lib/scripts/list/sort/sort_1.h
+iostream
+-
+algorithm
+-
+../search/search.h
+/run/media/cytoncode/GIT/CppLearning/lib/scripts/list/search/search.h
+../echo/echo.h
+/run/media/cytoncode/GIT/CppLearning/lib/scripts/list/echo/echo.h
+iostream
+-
+algorithm
+-
+
 /run/media/cytoncode/GIT/CppLearning/main.cpp
+plugin.h
+/run/media/cytoncode/GIT/CppLearning/plugin.h
+lib/scripts/list/sort/sort_1.h
+/run/media/cytoncode/GIT/CppLearning/lib/scripts/list/sort/sort_1.h
+lib/scripts/list/echo/echo.h
+/run/media/cytoncode/GIT/CppLearning/lib/scripts/list/echo/echo.h
+
+/run/media/cytoncode/GIT/CppLearning/plugin.h
+iostream
+-
 
