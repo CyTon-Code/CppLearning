@@ -1,9 +1,30 @@
 /app/extra/clion/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /run/media/cytoncode/GIT/CppLearning
-CMake Error at CMakeLists.txt:20 (add_executable):
-  The target name "мусор" is reserved or not valid for certain CMake
-  features, such as generator expressions, and may result in undefined
-  behavior.
-
-
--- Configuring incomplete, errors occurred!
-See also "/run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+-- Configuring done
+CMake Error: Cannot determine link language for target "word_cpp".
+CMake Error: CMake can not determine linker language for target: word_cpp
+CMake Error: Cannot determine link language for target "test_import_cpp_in_python".
+CMake Error: CMake can not determine linker language for target: test_import_cpp_in_python
+CMake Error: Cannot determine link language for target "begin".
+CMake Error: CMake can not determine linker language for target: begin
+CMake Error: Cannot determine link language for target "README".
+CMake Error: CMake can not determine linker language for target: README
+CMake Error: Cannot determine link language for target "CMakeLists".
+CMake Error: CMake can not determine linker language for target: CMakeLists
+CMake Error: Cannot determine link language for target "tmf".
+CMake Error: CMake can not determine linker language for target: tmf
+CMake Error: Cannot determine link language for target "len".
+CMake Error: CMake can not determine linker language for target: len
+CMake Error: Cannot determine link language for target "plugin".
+CMake Error: CMake can not determine linker language for target: plugin
+CMake Error: Cannot determine link language for target "for_count".
+CMake Error: CMake can not determine linker language for target: for_count
+CMake Error: Cannot determine link language for target "python".
+CMake Error: CMake can not determine linker language for target: python
+CMake Error: Cannot determine link language for target "for".
+CMake Error: CMake can not determine linker language for target: for
+CMake Error: Cannot determine link language for target "pascal".
+CMake Error: CMake can not determine linker language for target: pascal
+CMake Error: Cannot determine link language for target "for_iter".
+CMake Error: CMake can not determine linker language for target: for_iter
+-- Generating done
+CMake Generate step failed.  Build files cannot be regenerated correctly.

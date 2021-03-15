@@ -7,17 +7,17 @@
 /**
  * count - схож на start - счотчик.
 <BR>
+ * name - имя функции.
+<BR>
  * start - начало цикла и сопровождение цикла.
 <BR>
  * stop - число шагов на которых заканчивается цикл.
 <BR>
  * step - шаг в чтении итерацийным циклом.
 <BR>
- * process - результат выполнения програаммы*/
-#define BEGIN(name) int count = 0, start = 0, stop = 0, step = 1, process = 0; str NAME = # name
+ * result - результат выполнения програаммы*/
+#define BEGIN SMS; int count = 0, start = 0, stop = 0, step = 1, result = 0
 
-#define MAIN int main(int argc, char *args[])
-
-#define END cout << "[" << NAME << " Finished]" << endl; return process
+#define END process = "Finished"; ECHO; return result
 
 #endif //CPPLEARNING_BEGIN_H

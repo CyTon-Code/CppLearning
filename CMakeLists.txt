@@ -17,4 +17,6 @@ add_executable(begin syntax/pascal/begin.h)
 add_executable(test_import_cpp_in_python test_import_cpp_in_python/)
 add_executable(test test_import_cpp_in_python/test.cpp)
 
-add_executable(мусор мусор)
+add_executable(word_cpp lib/word_cpp.h)
+add_executable(tmf lib/tmf.h)
+add_executable(for lib/for.h)

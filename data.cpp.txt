@@ -1,0 +1,38 @@
+
+/**
+int main() {
+double x, a, c, b, y;
+
+c = input("c = ");
+a = input("a = ");
+x = input("x = ");
+
+b = pow(c, 3);
+a = (a * b) + c;
+x = pow(x * a, 2);
+y = sin(a / x) + log10(0.08) * exp(x);
+
+cout << "y= " << y << endl;
+exit;
+}
+*/
+
+
+int x1 = 10, x2 = 20;
+cout << "x1 = " << x1 << ", x2 = " << x2 << endl;
+swap(x1, x2); // Передаём ссылки
+cout << "x1 = " << x1 << ", x2 = " << x2 << endl;
+
+
+
+cout << len("21") << endl;
+int a = 20, b = 10;
+str x = "1";
+str y = "12";
+cout << a << " " << b << endl;
+cout << x << " " << y << endl;
+swap_xor(a, b);
+swap_operator(x, y);
+swap_copy(x, y);
+cout << a << " " << b << endl;
+cout << x << " " << y << endl;

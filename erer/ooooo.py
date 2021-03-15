@@ -1,0 +1,2 @@
+print("ooooo")
+exit()

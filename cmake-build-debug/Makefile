@@ -131,6 +131,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named word_cpp
+
+# Build rule for target.
+word_cpp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 word_cpp
+.PHONY : word_cpp
+
+# fast build rule for target.
+word_cpp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/word_cpp.dir/build.make CMakeFiles/word_cpp.dir/build
+.PHONY : word_cpp/fast
+
+#=============================================================================
 # Target rules for targets named test
 
 # Build rule for target.
@@ -196,6 +209,19 @@ CMakeLists/fast:
 .PHONY : CMakeLists/fast
 
 #=============================================================================
+# Target rules for targets named tmf
+
+# Build rule for target.
+tmf: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tmf
+.PHONY : tmf
+
+# fast build rule for target.
+tmf/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmf.dir/build.make CMakeFiles/tmf.dir/build
+.PHONY : tmf/fast
+
+#=============================================================================
 # Target rules for targets named len
 
 # Build rule for target.
@@ -259,6 +285,19 @@ python: cmake_check_build_system
 python/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/python.dir/build.make CMakeFiles/python.dir/build
 .PHONY : python/fast
+
+#=============================================================================
+# Target rules for targets named for
+
+# Build rule for target.
+for: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 for
+.PHONY : for
+
+# fast build rule for target.
+for/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/for.dir/build.make CMakeFiles/for.dir/build
+.PHONY : for/fast
 
 #=============================================================================
 # Target rules for targets named main
@@ -368,6 +407,7 @@ help:
 	@echo "... CppLearning"
 	@echo "... README"
 	@echo "... begin"
+	@echo "... for"
 	@echo "... for_count"
 	@echo "... for_iter"
 	@echo "... len"
@@ -377,6 +417,8 @@ help:
 	@echo "... python"
 	@echo "... test"
 	@echo "... test_import_cpp_in_python"
+	@echo "... tmf"
+	@echo "... word_cpp"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
