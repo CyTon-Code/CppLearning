@@ -113,6 +113,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="for" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CppLearning" TARGET_NAME="for" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CppLearning" RUN_TARGET_NAME="for">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="for_count" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CppLearning" TARGET_NAME="for_count" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CppLearning" RUN_TARGET_NAME="for_count">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -158,10 +163,26 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="tmf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CppLearning" TARGET_NAME="tmf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CppLearning" RUN_TARGET_NAME="tmf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="word_cpp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CppLearning" TARGET_NAME="word_cpp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CppLearning" RUN_TARGET_NAME="word_cpp">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="CMake Application.begin" />
       <item itemvalue="CMake Application.CMakeLists" />
       <item itemvalue="CMake Application.CppLearning" />
+      <item itemvalue="CMake Application.for" />
       <item itemvalue="CMake Application.for_count" />
       <item itemvalue="CMake Application.for_iter" />
       <item itemvalue="CMake Application.len" />
@@ -172,6 +193,8 @@
       <item itemvalue="CMake Application.README" />
       <item itemvalue="CMake Application.test" />
       <item itemvalue="CMake Application.test_import_cpp_in_python" />
+      <item itemvalue="CMake Application.tmf" />
+      <item itemvalue="CMake Application.word_cpp" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
