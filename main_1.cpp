@@ -1,6 +1,6 @@
 #include <iostream>
-#include "lib/tmf.h"
-#include "lib/for.h"
+#include "temp/tmf.h"
+#include "temp/for.h"
 
 #define __NULL_VOID ((void *)0)
 #define __NULL_INT 0

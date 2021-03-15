@@ -15,13 +15,13 @@
       <config projectName="Cpp_Learning" targetName="test_import_cpp_in_python" />
       <config projectName="Cpp_Learning" targetName="CMakeLists" />
       <config projectName="Cpp_Learning" targetName="pascal" />
-      <config projectName="Cpp_Learning" targetName="scripts" />
       <config projectName="Cpp_Learning" targetName="plugin" />
+      <config projectName="Cpp_Learning" targetName="scripts" />
       <config projectName="Cpp_Learning" targetName="begin" />
-      <config projectName="Cpp_Learning" targetName="python" />
       <config projectName="Cpp_Learning" targetName="CppLearning" />
-      <config projectName="Cpp_Learning" targetName="code" />
+      <config projectName="Cpp_Learning" targetName="python" />
       <config projectName="Cpp_Learning" targetName="hello" />
+      <config projectName="Cpp_Learning" targetName="code" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -31,37 +31,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83190fdc-9514-4a5e-a750-6ae6b91846a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/syntax/string/string.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README_1.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CppLearning.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CppLearning.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/counter/len.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/scripts/counter/len.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/echo/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/lib/scripts/echo/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/echo/echo.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/scripts/echo/echo.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/echo/echo.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/syntax/echo.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/erer/ooooo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/lib/syntax/hello/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello/hello.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/syntax/hello/hello.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello/hello.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/syntax/hello/hello.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/code.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/code.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.h" beforeDir="false" afterPath="$PROJECT_DIR$/plugin.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/hello_world_1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/scripts/hello_world_1.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/syntax/pascal.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/syntax/pascal.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/syntax/pascal/begin.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/syntax/pascal/begin.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/syntax/python.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/syntax/python.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/syntax/python/for_count.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/syntax/python/for_count.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/syntax/python/for_iter.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/syntax/python/for_iter.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp/1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/temp/1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/temp/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/code.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/temp/code.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/def.h" beforeDir="false" afterPath="$PROJECT_DIR$/temp/def.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/for" beforeDir="false" afterPath="$PROJECT_DIR$/temp/for" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/for.h" beforeDir="false" afterPath="$PROJECT_DIR$/temp/for.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/for.h.gch" beforeDir="false" afterPath="$PROJECT_DIR$/temp/for.h.gch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/scripts/echo/echo.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lib/scripts/echo/echo.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/syntax/string/string.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/syntax/string/string.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/tmf.h" beforeDir="false" afterPath="$PROJECT_DIR$/temp/tmf.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/word_cpp.h" beforeDir="false" afterPath="$PROJECT_DIR$/temp/word_cpp.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/советы" beforeDir="false" afterPath="$PROJECT_DIR$/temp/советы" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main_1.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,12 +105,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/temp" />
       <recent name="$PROJECT_DIR$/lib/scripts" />
       <recent name="$PROJECT_DIR$/lib/syntax" />
       <recent name="$PROJECT_DIR$/lib" />
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.CppLearning">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CMakeLists" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Cpp_Learning" TARGET_NAME="CMakeLists" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Cpp_Learning" RUN_TARGET_NAME="CMakeLists">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -134,11 +128,6 @@
       </method>
     </configuration>
     <configuration name="README" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Cpp_Learning" TARGET_NAME="README" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Cpp_Learning" RUN_TARGET_NAME="README">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -271,7 +260,8 @@
       <workItem from="1615758230790" duration="2866000" />
       <workItem from="1615762573802" duration="95000" />
       <workItem from="1615762780576" duration="1621000" />
-      <workItem from="1615803770715" duration="2135000" />
+      <workItem from="1615803770715" duration="2533000" />
+      <workItem from="1615806524242" duration="504000" />
     </task>
     <task id="LOCAL-00001" summary="add all">
       <created>1615643473714</created>
@@ -343,7 +333,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615804827967</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="upd all">
+      <created>1615806237439</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1615806237439</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -363,11 +360,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add all" />
-    <MESSAGE value="upd all" />
     <MESSAGE value="upd and add all" />
     <MESSAGE value="upd info" />
     <MESSAGE value="add and upd all" />
     <MESSAGE value="upd file" />
-    <option name="LAST_COMMIT_MESSAGE" value="upd file" />
+    <MESSAGE value="upd all" />
+    <option name="LAST_COMMIT_MESSAGE" value="upd all" />
   </component>
 </project>

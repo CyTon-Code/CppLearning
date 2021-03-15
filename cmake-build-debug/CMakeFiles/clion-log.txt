@@ -17,5 +17,11 @@ CMake Error at CMakeLists.txt:38 (add_executable):
   behavior.
 
 
+CMake Error at CMakeLists.txt:41 (add_executable):
+  The target name "Снимок" is reserved or not valid for certain CMake
+  features, such as generator expressions, and may result in undefined
+  behavior.
+
+
 -- Configuring incomplete, errors occurred!
 See also "/run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles/CMakeOutput.log".
