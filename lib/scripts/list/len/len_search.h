@@ -10,7 +10,7 @@
 template<class typ>
 int len_search(typ array[], typ end) {
     int count = 0;
-    while (count++ != end);
+    while (array[count++] != end);
     return count;
 }
 

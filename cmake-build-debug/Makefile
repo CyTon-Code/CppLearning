@@ -157,6 +157,19 @@ README/fast:
 .PHONY : README/fast
 
 #=============================================================================
+# Target rules for targets named len_array_first
+
+# Build rule for target.
+len_array_first: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 len_array_first
+.PHONY : len_array_first
+
+# fast build rule for target.
+len_array_first/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/len_array_first.dir/build.make CMakeFiles/len_array_first.dir/build
+.PHONY : len_array_first/fast
+
+#=============================================================================
 # Target rules for targets named len_array
 
 # Build rule for target.
@@ -370,6 +383,7 @@ help:
 	@echo "... echo"
 	@echo "... len"
 	@echo "... len_array"
+	@echo "... len_array_first"
 	@echo "... len_error"
 	@echo "... len_search"
 	@echo "... main"

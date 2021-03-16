@@ -9,9 +9,11 @@
 #include "len_char.h"
 #include "len_str.h"
 #include "len_search.h"
-#include "len_array.h"
+#include "len_array_first.h"
 
 #include <utility>
+
+#define LEN_SIZE(args, typ) sizeof(args)/sizeof(typ)
 
 //len(type args)
 
@@ -32,7 +34,7 @@ int len(str args) {
 
 int len(const int array[]) {
     cout << "! len int list" << endl;
-    return len_array(array);
+    return len_array_first(array);
 }
 
 template<class typ>
@@ -41,6 +43,10 @@ int len(typ array[], typ end) {
     return len_search(array, end);
 }
 
+template<class typ_list, class typ>
+int len(typ_list args, typ n) {
+    return LEN_SIZE(args, typ);
+}
 /*
 int len(str args) {
     printf("! len str\n");

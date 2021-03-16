@@ -6,7 +6,7 @@
 #define CPP_LEARNING_ECHO_H
 
 #include "../../syntax/str/str.h"
-#include "../list/len/len_array.h"
+#include "../list/len/len_array_first.h"
 
 int echo(int length, String args[]) {
     for (int index = 1; index < length; index++)
