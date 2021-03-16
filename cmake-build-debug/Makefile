@@ -144,6 +144,19 @@ len_search/fast:
 .PHONY : len_search/fast
 
 #=============================================================================
+# Target rules for targets named len_new
+
+# Build rule for target.
+len_new: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 len_new
+.PHONY : len_new
+
+# fast build rule for target.
+len_new/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/len_new.dir/build.make CMakeFiles/len_new.dir/build
+.PHONY : len_new/fast
+
+#=============================================================================
 # Target rules for targets named README
 
 # Build rule for target.
@@ -385,6 +398,7 @@ help:
 	@echo "... len_array"
 	@echo "... len_array_first"
 	@echo "... len_error"
+	@echo "... len_new"
 	@echo "... len_search"
 	@echo "... main"
 	@echo "... main_1"

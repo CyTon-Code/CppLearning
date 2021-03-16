@@ -15,12 +15,12 @@ len_str.h
 /run/media/cytoncode/GIT/CppLearning/lib/scripts/list/len/len_str.h
 len_search.h
 /run/media/cytoncode/GIT/CppLearning/lib/scripts/list/len/len_search.h
-len_array.h
-/run/media/cytoncode/GIT/CppLearning/lib/scripts/list/len/len_array.h
+len_array_first.h
+/run/media/cytoncode/GIT/CppLearning/lib/scripts/list/len/len_array_first.h
 utility
 -
 
-/run/media/cytoncode/GIT/CppLearning/lib/scripts/list/len/len_array.h
+/run/media/cytoncode/GIT/CppLearning/lib/scripts/list/len/len_array_first.h
 
 /run/media/cytoncode/GIT/CppLearning/lib/scripts/list/len/len_char.h
 

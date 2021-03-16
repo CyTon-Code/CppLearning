@@ -8,6 +8,7 @@
       <config projectName="Cpp_Learning" targetName="echo" />
       <config projectName="Cpp_Learning" targetName="len_array_first" />
       <config projectName="Cpp_Learning" targetName="main" />
+      <config projectName="Cpp_Learning" targetName="len_new" />
       <config projectName="Cpp_Learning" targetName="search" />
       <config projectName="Cpp_Learning" targetName="main_1" />
       <config projectName="Cpp_Learning" targetName="CMakeLists" />
@@ -25,15 +26,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83190fdc-9514-4a5e-a750-6ae6b91846a5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Идеи" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppLearning.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppLearning.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppLearning.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppLearning.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppLearning.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppLearning.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppLearning.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CppLearning.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CppLearning" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CppLearning" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/scripts/echo/echo.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/scripts/echo/echo.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/scripts/list/len/len.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/scripts/list/len/len.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/scripts/list/len/len_array.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/scripts/list/len/len_array_first.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/scripts/list/len/len_search.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/scripts/list/len/len_search.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -106,11 +113,6 @@
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.CppLearning">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CMakeLists" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Cpp_Learning" TARGET_NAME="CMakeLists" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Cpp_Learning" RUN_TARGET_NAME="CMakeLists">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -122,6 +124,11 @@
       </method>
     </configuration>
     <configuration name="README" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Cpp_Learning" TARGET_NAME="README" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Cpp_Learning" RUN_TARGET_NAME="README">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -147,6 +154,11 @@
       </method>
     </configuration>
     <configuration name="len_error" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Cpp_Learning" TARGET_NAME="len_error" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Cpp_Learning" RUN_TARGET_NAME="len_error">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="len_new" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Cpp_Learning" TARGET_NAME="len_new" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Cpp_Learning" RUN_TARGET_NAME="len_new">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -195,6 +207,7 @@
       <item itemvalue="CMake Application.len_array" />
       <item itemvalue="CMake Application.len_array_first" />
       <item itemvalue="CMake Application.len_error" />
+      <item itemvalue="CMake Application.len_new" />
       <item itemvalue="CMake Application.len_search" />
       <item itemvalue="CMake Application.main" />
       <item itemvalue="CMake Application.main_1" />
@@ -224,7 +237,12 @@
       <workItem from="1615838183271" duration="417000" />
       <workItem from="1615841851931" duration="6564000" />
       <workItem from="1615907528178" duration="72000" />
-      <workItem from="1615907757301" duration="2406000" />
+      <workItem from="1615907757301" duration="2584000" />
+      <workItem from="1615910924034" duration="973000" />
+      <workItem from="1615914979948" duration="303000" />
+      <workItem from="1615916893193" duration="109000" />
+      <workItem from="1615923394263" duration="955000" />
+      <workItem from="1615925797295" duration="1376000" />
     </task>
     <task id="LOCAL-00001" summary="add all">
       <created>1615643473714</created>
@@ -366,7 +384,21 @@
       <option name="project" value="LOCAL" />
       <updated>1615907861106</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="upd all">
+      <created>1615910201273</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1615910201273</updated>
+    </task>
+    <task id="LOCAL-00022" summary="upd all">
+      <created>1615910209462</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1615910209462</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -74,6 +74,7 @@ CMAKE_BINARY_DIR = /run/media/cytoncode/GIT/CppLearning/cmake-build-debug
 
 # The main recursive "all" target.
 all: CMakeFiles/len_search.dir/all
+all: CMakeFiles/len_new.dir/all
 all: CMakeFiles/README.dir/all
 all: CMakeFiles/len_array_first.dir/all
 all: CMakeFiles/len_array.dir/all
@@ -97,6 +98,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/len_search.dir/clean
+clean: CMakeFiles/len_new.dir/clean
 clean: CMakeFiles/README.dir/clean
 clean: CMakeFiles/len_array_first.dir/clean
 clean: CMakeFiles/len_array.dir/clean
@@ -139,6 +141,33 @@ len_search: CMakeFiles/len_search.dir/rule
 CMakeFiles/len_search.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/len_search.dir/build.make CMakeFiles/len_search.dir/clean
 .PHONY : CMakeFiles/len_search.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/len_new.dir
+
+# All Build rule for target.
+CMakeFiles/len_new.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/len_new.dir/build.make CMakeFiles/len_new.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/len_new.dir/build.make CMakeFiles/len_new.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles --progress-num= "Built target len_new"
+.PHONY : CMakeFiles/len_new.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/len_new.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/len_new.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/len_new.dir/rule
+
+# Convenience name for target.
+len_new: CMakeFiles/len_new.dir/rule
+
+.PHONY : len_new
+
+# clean rule for target.
+CMakeFiles/len_new.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/len_new.dir/build.make CMakeFiles/len_new.dir/clean
+.PHONY : CMakeFiles/len_new.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/README.dir

@@ -1,0 +1,21 @@
+Iter:
+    LIST - DATA -> len():LEN, echo():FOR, __length__, __start__=0, __step__=1, __stop__=__length__
+    LEN - fun -> count_check_error(), first(), size(), search(), iter_str(), array_size()
+    FOR - syntax -> COUNT(n) , FOR _ IN (args) , FOR_COUNT (,,,,)
+    SEARCH
+
+LIST:
+    private:
+        length;
+        start=0, step=1;
+        int *array;
+    public:
+        int get_length():
+            return length;
+        void set_length(value):
+            length = value
+        void print_var():
+            echo length, start, step;
+        void echo():
+            echo array
+
