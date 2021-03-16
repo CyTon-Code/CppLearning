@@ -8,11 +8,11 @@
 //#include "lib/syntax/python.h"
 //#include "lib/syntax/str/str.h"
 
-#include "lib/scripts/list/len/len.h"
+//#include "lib/scripts/list/len/len.h"
 
 //#include "lib/scripts/list/sort/sort_1.h"
 
-#include "lib/scripts/echo/echo.h"
+//#include "lib/scripts/echo/echo.h"
 
 //#include "lib/scripts/list/len/len_array.h"
 
