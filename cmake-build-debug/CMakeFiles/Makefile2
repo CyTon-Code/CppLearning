@@ -73,21 +73,11 @@ CMAKE_BINARY_DIR = /run/media/cytoncode/GIT/CppLearning/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/len_search.dir/all
-all: CMakeFiles/len_new.dir/all
-all: CMakeFiles/README.dir/all
-all: CMakeFiles/len_array_first.dir/all
-all: CMakeFiles/len_array.dir/all
-all: CMakeFiles/len_error.dir/all
-all: CMakeFiles/CMakeLists.dir/all
+all: CMakeFiles/List.dir/all
 all: CMakeFiles/CppLearning.dir/all
-all: CMakeFiles/len.dir/all
-all: CMakeFiles/sort_1.dir/all
-all: CMakeFiles/plugin.dir/all
-all: CMakeFiles/echo.dir/all
-all: CMakeFiles/search.dir/all
+all: CMakeFiles/CMakeLists.dir/all
 all: CMakeFiles/main.dir/all
-all: CMakeFiles/main_1.dir/all
+all: CMakeFiles/README.dir/all
 
 .PHONY : all
 
@@ -97,212 +87,40 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/len_search.dir/clean
-clean: CMakeFiles/len_new.dir/clean
-clean: CMakeFiles/README.dir/clean
-clean: CMakeFiles/len_array_first.dir/clean
-clean: CMakeFiles/len_array.dir/clean
-clean: CMakeFiles/len_error.dir/clean
-clean: CMakeFiles/CMakeLists.dir/clean
+clean: CMakeFiles/List.dir/clean
 clean: CMakeFiles/CppLearning.dir/clean
-clean: CMakeFiles/len.dir/clean
-clean: CMakeFiles/sort_1.dir/clean
-clean: CMakeFiles/plugin.dir/clean
-clean: CMakeFiles/echo.dir/clean
-clean: CMakeFiles/search.dir/clean
+clean: CMakeFiles/CMakeLists.dir/clean
 clean: CMakeFiles/main.dir/clean
-clean: CMakeFiles/main_1.dir/clean
+clean: CMakeFiles/README.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/len_search.dir
+# Target rules for target CMakeFiles/List.dir
 
 # All Build rule for target.
-CMakeFiles/len_search.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/len_search.dir/build.make CMakeFiles/len_search.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/len_search.dir/build.make CMakeFiles/len_search.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles --progress-num= "Built target len_search"
-.PHONY : CMakeFiles/len_search.dir/all
+CMakeFiles/List.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/List.dir/build.make CMakeFiles/List.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/List.dir/build.make CMakeFiles/List.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles --progress-num= "Built target List"
+.PHONY : CMakeFiles/List.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/len_search.dir/rule: cmake_check_build_system
+CMakeFiles/List.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/len_search.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/List.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/len_search.dir/rule
+.PHONY : CMakeFiles/List.dir/rule
 
 # Convenience name for target.
-len_search: CMakeFiles/len_search.dir/rule
+List: CMakeFiles/List.dir/rule
 
-.PHONY : len_search
-
-# clean rule for target.
-CMakeFiles/len_search.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/len_search.dir/build.make CMakeFiles/len_search.dir/clean
-.PHONY : CMakeFiles/len_search.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/len_new.dir
-
-# All Build rule for target.
-CMakeFiles/len_new.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/len_new.dir/build.make CMakeFiles/len_new.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/len_new.dir/build.make CMakeFiles/len_new.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles --progress-num= "Built target len_new"
-.PHONY : CMakeFiles/len_new.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/len_new.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/len_new.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/len_new.dir/rule
-
-# Convenience name for target.
-len_new: CMakeFiles/len_new.dir/rule
-
-.PHONY : len_new
+.PHONY : List
 
 # clean rule for target.
-CMakeFiles/len_new.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/len_new.dir/build.make CMakeFiles/len_new.dir/clean
-.PHONY : CMakeFiles/len_new.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/README.dir
-
-# All Build rule for target.
-CMakeFiles/README.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/README.dir/build.make CMakeFiles/README.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/README.dir/build.make CMakeFiles/README.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles --progress-num= "Built target README"
-.PHONY : CMakeFiles/README.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/README.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/README.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/README.dir/rule
-
-# Convenience name for target.
-README: CMakeFiles/README.dir/rule
-
-.PHONY : README
-
-# clean rule for target.
-CMakeFiles/README.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/README.dir/build.make CMakeFiles/README.dir/clean
-.PHONY : CMakeFiles/README.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/len_array_first.dir
-
-# All Build rule for target.
-CMakeFiles/len_array_first.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/len_array_first.dir/build.make CMakeFiles/len_array_first.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/len_array_first.dir/build.make CMakeFiles/len_array_first.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles --progress-num= "Built target len_array_first"
-.PHONY : CMakeFiles/len_array_first.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/len_array_first.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/len_array_first.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/len_array_first.dir/rule
-
-# Convenience name for target.
-len_array_first: CMakeFiles/len_array_first.dir/rule
-
-.PHONY : len_array_first
-
-# clean rule for target.
-CMakeFiles/len_array_first.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/len_array_first.dir/build.make CMakeFiles/len_array_first.dir/clean
-.PHONY : CMakeFiles/len_array_first.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/len_array.dir
-
-# All Build rule for target.
-CMakeFiles/len_array.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/len_array.dir/build.make CMakeFiles/len_array.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/len_array.dir/build.make CMakeFiles/len_array.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles --progress-num= "Built target len_array"
-.PHONY : CMakeFiles/len_array.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/len_array.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/len_array.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/len_array.dir/rule
-
-# Convenience name for target.
-len_array: CMakeFiles/len_array.dir/rule
-
-.PHONY : len_array
-
-# clean rule for target.
-CMakeFiles/len_array.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/len_array.dir/build.make CMakeFiles/len_array.dir/clean
-.PHONY : CMakeFiles/len_array.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/len_error.dir
-
-# All Build rule for target.
-CMakeFiles/len_error.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/len_error.dir/build.make CMakeFiles/len_error.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/len_error.dir/build.make CMakeFiles/len_error.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles --progress-num= "Built target len_error"
-.PHONY : CMakeFiles/len_error.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/len_error.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/len_error.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/len_error.dir/rule
-
-# Convenience name for target.
-len_error: CMakeFiles/len_error.dir/rule
-
-.PHONY : len_error
-
-# clean rule for target.
-CMakeFiles/len_error.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/len_error.dir/build.make CMakeFiles/len_error.dir/clean
-.PHONY : CMakeFiles/len_error.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/CMakeLists.dir
-
-# All Build rule for target.
-CMakeFiles/CMakeLists.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CMakeLists.dir/build.make CMakeFiles/CMakeLists.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CMakeLists.dir/build.make CMakeFiles/CMakeLists.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles --progress-num= "Built target CMakeLists"
-.PHONY : CMakeFiles/CMakeLists.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/CMakeLists.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/CMakeLists.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/CMakeLists.dir/rule
-
-# Convenience name for target.
-CMakeLists: CMakeFiles/CMakeLists.dir/rule
-
-.PHONY : CMakeLists
-
-# clean rule for target.
-CMakeFiles/CMakeLists.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CMakeLists.dir/build.make CMakeFiles/CMakeLists.dir/clean
-.PHONY : CMakeFiles/CMakeLists.dir/clean
+CMakeFiles/List.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/List.dir/build.make CMakeFiles/List.dir/clean
+.PHONY : CMakeFiles/List.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/CppLearning.dir
@@ -332,139 +150,31 @@ CMakeFiles/CppLearning.dir/clean:
 .PHONY : CMakeFiles/CppLearning.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/len.dir
+# Target rules for target CMakeFiles/CMakeLists.dir
 
 # All Build rule for target.
-CMakeFiles/len.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/len.dir/build.make CMakeFiles/len.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/len.dir/build.make CMakeFiles/len.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles --progress-num= "Built target len"
-.PHONY : CMakeFiles/len.dir/all
+CMakeFiles/CMakeLists.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CMakeLists.dir/build.make CMakeFiles/CMakeLists.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CMakeLists.dir/build.make CMakeFiles/CMakeLists.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles --progress-num= "Built target CMakeLists"
+.PHONY : CMakeFiles/CMakeLists.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/len.dir/rule: cmake_check_build_system
+CMakeFiles/CMakeLists.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/len.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/CMakeLists.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/len.dir/rule
+.PHONY : CMakeFiles/CMakeLists.dir/rule
 
 # Convenience name for target.
-len: CMakeFiles/len.dir/rule
+CMakeLists: CMakeFiles/CMakeLists.dir/rule
 
-.PHONY : len
-
-# clean rule for target.
-CMakeFiles/len.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/len.dir/build.make CMakeFiles/len.dir/clean
-.PHONY : CMakeFiles/len.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/sort_1.dir
-
-# All Build rule for target.
-CMakeFiles/sort_1.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sort_1.dir/build.make CMakeFiles/sort_1.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sort_1.dir/build.make CMakeFiles/sort_1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles --progress-num= "Built target sort_1"
-.PHONY : CMakeFiles/sort_1.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/sort_1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sort_1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/sort_1.dir/rule
-
-# Convenience name for target.
-sort_1: CMakeFiles/sort_1.dir/rule
-
-.PHONY : sort_1
+.PHONY : CMakeLists
 
 # clean rule for target.
-CMakeFiles/sort_1.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sort_1.dir/build.make CMakeFiles/sort_1.dir/clean
-.PHONY : CMakeFiles/sort_1.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/plugin.dir
-
-# All Build rule for target.
-CMakeFiles/plugin.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/plugin.dir/build.make CMakeFiles/plugin.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/plugin.dir/build.make CMakeFiles/plugin.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles --progress-num= "Built target plugin"
-.PHONY : CMakeFiles/plugin.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/plugin.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/plugin.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/plugin.dir/rule
-
-# Convenience name for target.
-plugin: CMakeFiles/plugin.dir/rule
-
-.PHONY : plugin
-
-# clean rule for target.
-CMakeFiles/plugin.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/plugin.dir/build.make CMakeFiles/plugin.dir/clean
-.PHONY : CMakeFiles/plugin.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/echo.dir
-
-# All Build rule for target.
-CMakeFiles/echo.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo.dir/build.make CMakeFiles/echo.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo.dir/build.make CMakeFiles/echo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles --progress-num= "Built target echo"
-.PHONY : CMakeFiles/echo.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/echo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/echo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/echo.dir/rule
-
-# Convenience name for target.
-echo: CMakeFiles/echo.dir/rule
-
-.PHONY : echo
-
-# clean rule for target.
-CMakeFiles/echo.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo.dir/build.make CMakeFiles/echo.dir/clean
-.PHONY : CMakeFiles/echo.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/search.dir
-
-# All Build rule for target.
-CMakeFiles/search.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/search.dir/build.make CMakeFiles/search.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/search.dir/build.make CMakeFiles/search.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles --progress-num= "Built target search"
-.PHONY : CMakeFiles/search.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/search.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/search.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/search.dir/rule
-
-# Convenience name for target.
-search: CMakeFiles/search.dir/rule
-
-.PHONY : search
-
-# clean rule for target.
-CMakeFiles/search.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/search.dir/build.make CMakeFiles/search.dir/clean
-.PHONY : CMakeFiles/search.dir/clean
+CMakeFiles/CMakeLists.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CMakeLists.dir/build.make CMakeFiles/CMakeLists.dir/clean
+.PHONY : CMakeFiles/CMakeLists.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/main.dir
@@ -494,31 +204,31 @@ CMakeFiles/main.dir/clean:
 .PHONY : CMakeFiles/main.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/main_1.dir
+# Target rules for target CMakeFiles/README.dir
 
 # All Build rule for target.
-CMakeFiles/main_1.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_1.dir/build.make CMakeFiles/main_1.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_1.dir/build.make CMakeFiles/main_1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target main_1"
-.PHONY : CMakeFiles/main_1.dir/all
+CMakeFiles/README.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/README.dir/build.make CMakeFiles/README.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/README.dir/build.make CMakeFiles/README.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles --progress-num= "Built target README"
+.PHONY : CMakeFiles/README.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/main_1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/main_1.dir/all
+CMakeFiles/README.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/main_1.dir/rule
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/README.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/README.dir/rule
 
 # Convenience name for target.
-main_1: CMakeFiles/main_1.dir/rule
+README: CMakeFiles/README.dir/rule
 
-.PHONY : main_1
+.PHONY : README
 
 # clean rule for target.
-CMakeFiles/main_1.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_1.dir/build.make CMakeFiles/main_1.dir/clean
-.PHONY : CMakeFiles/main_1.dir/clean
+CMakeFiles/README.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/README.dir/build.make CMakeFiles/README.dir/clean
+.PHONY : CMakeFiles/README.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

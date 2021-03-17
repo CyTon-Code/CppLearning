@@ -1,9 +1,10 @@
 /app/extra/clion/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /run/media/cytoncode/GIT/CppLearning
-CMake Error at CMakeLists.txt:23 (add_executable):
-  The target name "Идеи" is reserved or not valid for certain CMake
-  features, such as generator expressions, and may result in undefined
-  behavior.
-
-
--- Configuring incomplete, errors occurred!
-See also "/run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+-- Configuring done
+CMake Error: Cannot determine link language for target "List".
+CMake Error: CMake can not determine linker language for target: List
+CMake Error: Cannot determine link language for target "CMakeLists".
+CMake Error: CMake can not determine linker language for target: CMakeLists
+CMake Error: Cannot determine link language for target "README".
+CMake Error: CMake can not determine linker language for target: README
+-- Generating done
+CMake Generate step failed.  Build files cannot be regenerated correctly.

@@ -5,32 +5,32 @@
 #ifndef CPP_LEARNING_LEN_H
 #define CPP_LEARNING_LEN_H
 
-class Len {
-private:
-    int length;
-public:
-    template<class typ>
-    int len(typ array);
-
-    int get_length();
-//    void set_length(int length);
-};
-
-/**
- * len - функция для получения количества элементов.
- * <br>
- * Обьект который cчитает элементы пока не найдет например: \0
- * */
-class Search : Len {
-    template<class typ>
-    int len(typ array) {
-        return 0;
-    }
-
-    int get_length() {
-        return length;
-    }
-};
+//class Len {
+//private:
+//    int length;
+//public:
+//    template<class typ>
+//    int len(typ array);
+//
+//    int get_length();
+////    void set_length(int length);
+//};
+//
+///**
+// * len - функция для получения количества элементов.
+// * <br>
+// * Обьект который cчитает элементы пока не найдет например: \0
+// * */
+//class Search : Len {
+//    template<class typ>
+//    int len(typ array) {
+//        return 0;
+//    }
+//
+//    int get_length() {
+//        return length;
+//    }
+//};
 
 
 #include "len_new.h"

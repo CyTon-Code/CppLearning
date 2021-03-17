@@ -4,7 +4,7 @@ Iter:
     FOR - syntax -> COUNT(n) , FOR _ IN (args) , FOR_COUNT (,,,,)
     SEARCH
 
-LIST:
+LIST:public ITER:
     private:
         length;
         start=0, step=1;
@@ -12,10 +12,19 @@ LIST:
     public:
         int get_length():
             return length;
+        int *get_array():
+            pass
         void set_length(value):
             length = value
+        void set_array(value[]):
+            array = value;
         void print_var():
             echo length, start, step;
         void echo():
             echo array
-
+        void sort():
+            pass
+        int search():
+            pass
+        int len():
+            pass

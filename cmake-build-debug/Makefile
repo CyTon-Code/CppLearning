@@ -76,17 +76,6 @@ CMAKE_BINARY_DIR = /run/media/cytoncode/GIT/CppLearning/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/app/extra/clion/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -97,6 +86,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/app/extra/clion/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -131,95 +131,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named len_search
+# Target rules for targets named List
 
 # Build rule for target.
-len_search: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 len_search
-.PHONY : len_search
+List: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 List
+.PHONY : List
 
 # fast build rule for target.
-len_search/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/len_search.dir/build.make CMakeFiles/len_search.dir/build
-.PHONY : len_search/fast
-
-#=============================================================================
-# Target rules for targets named len_new
-
-# Build rule for target.
-len_new: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 len_new
-.PHONY : len_new
-
-# fast build rule for target.
-len_new/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/len_new.dir/build.make CMakeFiles/len_new.dir/build
-.PHONY : len_new/fast
-
-#=============================================================================
-# Target rules for targets named README
-
-# Build rule for target.
-README: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 README
-.PHONY : README
-
-# fast build rule for target.
-README/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/README.dir/build.make CMakeFiles/README.dir/build
-.PHONY : README/fast
-
-#=============================================================================
-# Target rules for targets named len_array_first
-
-# Build rule for target.
-len_array_first: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 len_array_first
-.PHONY : len_array_first
-
-# fast build rule for target.
-len_array_first/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/len_array_first.dir/build.make CMakeFiles/len_array_first.dir/build
-.PHONY : len_array_first/fast
-
-#=============================================================================
-# Target rules for targets named len_array
-
-# Build rule for target.
-len_array: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 len_array
-.PHONY : len_array
-
-# fast build rule for target.
-len_array/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/len_array.dir/build.make CMakeFiles/len_array.dir/build
-.PHONY : len_array/fast
-
-#=============================================================================
-# Target rules for targets named len_error
-
-# Build rule for target.
-len_error: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 len_error
-.PHONY : len_error
-
-# fast build rule for target.
-len_error/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/len_error.dir/build.make CMakeFiles/len_error.dir/build
-.PHONY : len_error/fast
-
-#=============================================================================
-# Target rules for targets named CMakeLists
-
-# Build rule for target.
-CMakeLists: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeLists
-.PHONY : CMakeLists
-
-# fast build rule for target.
-CMakeLists/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CMakeLists.dir/build.make CMakeFiles/CMakeLists.dir/build
-.PHONY : CMakeLists/fast
+List/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/List.dir/build.make CMakeFiles/List.dir/build
+.PHONY : List/fast
 
 #=============================================================================
 # Target rules for targets named CppLearning
@@ -235,69 +157,17 @@ CppLearning/fast:
 .PHONY : CppLearning/fast
 
 #=============================================================================
-# Target rules for targets named len
+# Target rules for targets named CMakeLists
 
 # Build rule for target.
-len: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 len
-.PHONY : len
+CMakeLists: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeLists
+.PHONY : CMakeLists
 
 # fast build rule for target.
-len/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/len.dir/build.make CMakeFiles/len.dir/build
-.PHONY : len/fast
-
-#=============================================================================
-# Target rules for targets named sort_1
-
-# Build rule for target.
-sort_1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sort_1
-.PHONY : sort_1
-
-# fast build rule for target.
-sort_1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sort_1.dir/build.make CMakeFiles/sort_1.dir/build
-.PHONY : sort_1/fast
-
-#=============================================================================
-# Target rules for targets named plugin
-
-# Build rule for target.
-plugin: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plugin
-.PHONY : plugin
-
-# fast build rule for target.
-plugin/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/plugin.dir/build.make CMakeFiles/plugin.dir/build
-.PHONY : plugin/fast
-
-#=============================================================================
-# Target rules for targets named echo
-
-# Build rule for target.
-echo: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 echo
-.PHONY : echo
-
-# fast build rule for target.
-echo/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo.dir/build.make CMakeFiles/echo.dir/build
-.PHONY : echo/fast
-
-#=============================================================================
-# Target rules for targets named search
-
-# Build rule for target.
-search: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 search
-.PHONY : search
-
-# fast build rule for target.
-search/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/search.dir/build.make CMakeFiles/search.dir/build
-.PHONY : search/fast
+CMakeLists/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CMakeLists.dir/build.make CMakeFiles/CMakeLists.dir/build
+.PHONY : CMakeLists/fast
 
 #=============================================================================
 # Target rules for targets named main
@@ -313,17 +183,17 @@ main/fast:
 .PHONY : main/fast
 
 #=============================================================================
-# Target rules for targets named main_1
+# Target rules for targets named README
 
 # Build rule for target.
-main_1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main_1
-.PHONY : main_1
+README: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 README
+.PHONY : README
 
 # fast build rule for target.
-main_1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_1.dir/build.make CMakeFiles/main_1.dir/build
-.PHONY : main_1/fast
+README/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/README.dir/build.make CMakeFiles/README.dir/build
+.PHONY : README/fast
 
 main.o: main.cpp.o
 
@@ -355,33 +225,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-main_1.o: main_1.cpp.o
-
-.PHONY : main_1.o
-
-# target to build an object file
-main_1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_1.dir/build.make CMakeFiles/main_1.dir/main_1.cpp.o
-.PHONY : main_1.cpp.o
-
-main_1.i: main_1.cpp.i
-
-.PHONY : main_1.i
-
-# target to preprocess a source file
-main_1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_1.dir/build.make CMakeFiles/main_1.dir/main_1.cpp.i
-.PHONY : main_1.cpp.i
-
-main_1.s: main_1.cpp.s
-
-.PHONY : main_1.s
-
-# target to generate assembly for a file
-main_1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_1.dir/build.make CMakeFiles/main_1.dir/main_1.cpp.s
-.PHONY : main_1.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -392,25 +235,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... CMakeLists"
 	@echo "... CppLearning"
+	@echo "... List"
 	@echo "... README"
-	@echo "... echo"
-	@echo "... len"
-	@echo "... len_array"
-	@echo "... len_array_first"
-	@echo "... len_error"
-	@echo "... len_new"
-	@echo "... len_search"
 	@echo "... main"
-	@echo "... main_1"
-	@echo "... plugin"
-	@echo "... search"
-	@echo "... sort_1"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... main_1.o"
-	@echo "... main_1.i"
-	@echo "... main_1.s"
 .PHONY : help
 
 
