@@ -2,6 +2,8 @@
 -- Configuring done
 CMake Error: Cannot determine link language for target "README".
 CMake Error: CMake can not determine linker language for target: README
+CMake Error: Cannot determine link language for target "build".
+CMake Error: CMake can not determine linker language for target: build
 CMake Error: Cannot determine link language for target "CMakeLists".
 CMake Error: CMake can not determine linker language for target: CMakeLists
 CMake Error: Cannot determine link language for target "2".

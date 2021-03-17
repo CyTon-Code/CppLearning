@@ -157,6 +157,19 @@ main/fast:
 .PHONY : main/fast
 
 #=============================================================================
+# Target rules for targets named build
+
+# Build rule for target.
+build: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 build
+.PHONY : build
+
+# fast build rule for target.
+build/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/build.dir/build.make CMakeFiles/build.dir/build
+.PHONY : build/fast
+
+#=============================================================================
 # Target rules for targets named CMakeLists
 
 # Build rule for target.
@@ -304,6 +317,7 @@ help:
 	@echo "... CppLearning"
 	@echo "... List"
 	@echo "... README"
+	@echo "... build"
 	@echo "... e"
 	@echo "... len"
 	@echo "... main"

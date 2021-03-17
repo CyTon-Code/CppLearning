@@ -2,8 +2,8 @@
 // Created by cyton_code on 17.03.2021.
 //
 
-#ifndef CPP_LEARNING_E_H
-#define CPP_LEARNING_E_H
+#ifndef CPP_LEARNING_E_ITER_H
+#define CPP_LEARNING_E_ITER_H
 int polyus(int n){
     if (n > 0) return 1;
     if (n < 0) return 0;
@@ -27,4 +27,4 @@ else if(/*+*/step>0 && /*+*/stop>0)  cout << "n -> " << stop << endl;\
 else if(/*-*/step<0 && /*+*/stop>0)  cout << "n -> -oo" << endl;\
 for(;n<stop; n += step)
 
-#endif //CPP_LEARNING_E_H
+#endif //CPP_LEARNING_E_ITER_H
