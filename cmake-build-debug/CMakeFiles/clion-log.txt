@@ -1,10 +1,20 @@
 /app/extra/clion/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /run/media/cytoncode/GIT/CppLearning
 -- Configuring done
-CMake Error: Cannot determine link language for target "List".
-CMake Error: CMake can not determine linker language for target: List
-CMake Error: Cannot determine link language for target "CMakeLists".
-CMake Error: CMake can not determine linker language for target: CMakeLists
 CMake Error: Cannot determine link language for target "README".
 CMake Error: CMake can not determine linker language for target: README
+CMake Error: Cannot determine link language for target "CMakeLists".
+CMake Error: CMake can not determine linker language for target: CMakeLists
+CMake Error: Cannot determine link language for target "2".
+CMake Error: CMake can not determine linker language for target: 2
+CMake Error: Cannot determine link language for target "List".
+CMake Error: CMake can not determine linker language for target: List
+CMake Error: Cannot determine link language for target "len".
+CMake Error: CMake can not determine linker language for target: len
+CMake Error: Cannot determine link language for target "e".
+CMake Error: CMake can not determine linker language for target: e
+CMake Error: Cannot determine link language for target "3".
+CMake Error: CMake can not determine linker language for target: 3
+CMake Error: Cannot determine link language for target "python".
+CMake Error: CMake can not determine linker language for target: python
 -- Generating done
 CMake Generate step failed.  Build files cannot be regenerated correctly.

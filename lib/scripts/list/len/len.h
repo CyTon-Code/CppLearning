@@ -43,7 +43,13 @@
 
 #define LEN_SIZE(args, typ) sizeof(args)/sizeof(typ)
 
+#include "../../../../temp/2.h"
+
+//../../../temp/2.h
 //len(type args)
+int len_others(int *args) {//tmp
+    return 0;
+}
 
 int len(String args) {
     cout << "! len String" << endl;

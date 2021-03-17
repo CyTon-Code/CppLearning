@@ -6,37 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/run/media/cytoncode/GIT/CppLearning/lib/scripts/list/List.h
-../../syntax/python.h
-/run/media/cytoncode/GIT/CppLearning/lib/syntax/python.h
+/run/media/cytoncode/GIT/CppLearning/lib/syntax/pascal.h
+pascal/begin.h
+/run/media/cytoncode/GIT/CppLearning/lib/syntax/pascal/begin.h
+pascal/new_var.h
+/run/media/cytoncode/GIT/CppLearning/lib/syntax/pascal/new_var.h
 
-/run/media/cytoncode/GIT/CppLearning/lib/scripts/list/len/len.h
-len_new.h
-/run/media/cytoncode/GIT/CppLearning/lib/scripts/list/len/len_new.h
-len_char.h
-/run/media/cytoncode/GIT/CppLearning/lib/scripts/list/len/len_char.h
-len_str.h
-/run/media/cytoncode/GIT/CppLearning/lib/scripts/list/len/len_str.h
-len_search.h
-/run/media/cytoncode/GIT/CppLearning/lib/scripts/list/len/len_search.h
-len_array_first.h
-/run/media/cytoncode/GIT/CppLearning/lib/scripts/list/len/len_array_first.h
-utility
--
+/run/media/cytoncode/GIT/CppLearning/lib/syntax/pascal/begin.h
 
-/run/media/cytoncode/GIT/CppLearning/lib/scripts/list/len/len_array_first.h
-
-/run/media/cytoncode/GIT/CppLearning/lib/scripts/list/len/len_char.h
-
-/run/media/cytoncode/GIT/CppLearning/lib/scripts/list/len/len_new.h
-../../../syntax/str/str.h
+/run/media/cytoncode/GIT/CppLearning/lib/syntax/pascal/new_var.h
+../../syntax/str/str.h
 /run/media/cytoncode/GIT/CppLearning/lib/syntax/str/str.h
-
-/run/media/cytoncode/GIT/CppLearning/lib/scripts/list/len/len_search.h
-
-/run/media/cytoncode/GIT/CppLearning/lib/scripts/list/len/len_str.h
-../../../syntax/python.h
-/run/media/cytoncode/GIT/CppLearning/lib/syntax/python.h
 
 /run/media/cytoncode/GIT/CppLearning/lib/syntax/python.h
 python/for_iter.h
@@ -45,8 +25,12 @@ python/for_count.h
 /run/media/cytoncode/GIT/CppLearning/lib/syntax/python/for_count.h
 python/count.h
 /run/media/cytoncode/GIT/CppLearning/lib/syntax/python/count.h
+python/e.h
+/run/media/cytoncode/GIT/CppLearning/lib/syntax/python/e.h
 
 /run/media/cytoncode/GIT/CppLearning/lib/syntax/python/count.h
+
+/run/media/cytoncode/GIT/CppLearning/lib/syntax/python/e.h
 
 /run/media/cytoncode/GIT/CppLearning/lib/syntax/python/for_count.h
 
@@ -63,12 +47,10 @@ string
 /run/media/cytoncode/GIT/CppLearning/main.cpp
 plugin.h
 /run/media/cytoncode/GIT/CppLearning/plugin.h
-lib/syntax/str/str.h
-/run/media/cytoncode/GIT/CppLearning/lib/syntax/str/str.h
-lib/scripts/list/len/len.h
-/run/media/cytoncode/GIT/CppLearning/lib/scripts/list/len/len.h
-lib/scripts/list/List.h
-/run/media/cytoncode/GIT/CppLearning/lib/scripts/list/List.h
+lib/syntax/python.h
+/run/media/cytoncode/GIT/CppLearning/lib/syntax/python.h
+lib/syntax/pascal.h
+/run/media/cytoncode/GIT/CppLearning/lib/syntax/pascal.h
 
 /run/media/cytoncode/GIT/CppLearning/plugin.h
 iostream
