@@ -10,10 +10,6 @@ add_executable(main main.cpp)
 
 
 
-add_executable(2 temp/2.h)
-add_executable(List lib/scripts/list/List.h)
-add_executable(len lib/scripts/list/len/len.h)
-add_executable(3 temp/3.h)
-add_executable(python lib/syntax/python.h)
-add_executable(e lib/syntax/python/e_iter.h)
-add_executable(build cmake-build-debug/CMakeFiles/for.dir/build.make)
+
+add_executable(data_in data_in.txt)
+add_executable(data_out data_out.txt)

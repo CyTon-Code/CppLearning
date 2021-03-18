@@ -1,3 +1,74 @@
+/*
+10
+
+uzhorod
+5
+boeing
+
+uzhorod
+4
+airbus
+
+uzhorod
+2
+boeing
+
+uzhorod
+1
+Concorde
+
+uzhorod
+3
+Fighter
+
+uzhorod
+7
+Jets
+
+uzhorod
+8
+Piper
+
+uzhorod
+6
+Pilatus
+
+uzhorod
+10
+Robinson
+
+uzhorod
+9
+Cessna_Caravan
+
+
+10
+uzhorod 5 boeing
+uzhorod 4 airbus
+uzhorod 2 boeing
+uzhorod 1 Concorde
+uzhorod 3 Fighter
+uzhorod 7 Jets
+uzhorod 8 Piper
+uzhorod 6 Pilatus
+uzhorod 10 Robinson
+uzhorod 9 Cessna Caravan
+
+
+uzhorod 1 Concorde
+uzhorod 2 boeing
+uzhorod 3 Fighter
+uzhorod 4 airbus
+uzhorod 5 boeing
+uzhorod 6 Pilatus
+uzhorod 7 Jets
+uzhorod 8 Piper
+uzhorod 9 Cessna Caravan
+uzhorod 10 Robinson
+
+
+/*
+*/
 #include <iostream>
 #include <list>
 //#include "string"
@@ -5,35 +76,35 @@
 using std::cout, std::endl;
 
 int len_array(const std::string& str) {
-    int count = 0;
-    for (auto i:str) {
-        count++;
-    }
-    return count;
+int count = 0;
+for (auto i:str) {
+count++;
+}
+return count;
 }
 
 int main() {
-    float arr[] = {43.175, -11.082, 0, 32.217, -5.42, -2.477, 13.921, -14.184, -7.3, 8.13, 16.08, 123.3, 18.67};
-    float sum_positive = 0, sum_negative = 0;  // count
-    unsigned int count_positive_element = 0, count_negative_element = 0, zero = 0;  // count
-    for (float i : arr)
-        if (i > 0) {
-            sum_positive += i;
-            count_positive_element++;
-        } else if (i < 0) {
-            sum_negative += i;
-            count_negative_element++;
-        } else zero++;
+float arr[] = {43.175, -11.082, 0, 32.217, -5.42, -2.477, 13.921, -14.184, -7.3, 8.13, 16.08, 123.3, 18.67};
+float sum_positive = 0, sum_negative = 0;  // count
+unsigned int count_positive_element = 0, count_negative_element = 0, zero = 0;  // count
+for (float i : arr)
+if (i > 0) {
+sum_positive += i;
+count_positive_element++;
+} else if (i < 0) {
+sum_negative += i;
+count_negative_element++;
+} else zero++;
 
-    cout << "sum positive elements=" << sum_positive << " and quantity="
-         << count_positive_element << endl;
+cout << "sum positive elements=" << sum_positive << " and quantity="
+<< count_positive_element << endl;
 
-    cout << "sum negative elements=" << sum_negative << " and quantity="
-         << count_negative_element << endl;
+cout << "sum negative elements=" << sum_negative << " and quantity="
+<< count_negative_element << endl;
 
-    cout << "zero equal quantity=" << zero;
+cout << "zero equal quantity=" << zero;
 
-    return 0;
+return 0;
 }
 
 #include "plugin.h"
@@ -41,24 +112,24 @@ int main() {
 #include "syntax/python.h"
 
 MAIN {
-    BEGIN;  // нужен для хорошей работы всей функции.
-    //    int count;
-    name = "main";
-    int list[10] = {1, 2, 3, 4, 1, 5, 2, 4234, 2, 1};
-    FOR_COUNT(args, i, count, argc, 1) {
-        cout << i << " " << count << endl;
-    }
-    FOR_COUNT(list, i, count, 10, 1) {
-        cout << i << " " << count << endl;
-    }
-    FOR i IN (list) {
-        cout << i << ' ';
-    }
-    cout << endl;
+BEGIN;  // нужен для хорошей работы всей функции.
+//    int count;
+name = "main";
+int list[10] = {1, 2, 3, 4, 1, 5, 2, 4234, 2, 1};
+FOR_COUNT(args, i, count, argc, 1) {
+cout << i << " " << count << endl;
+}
+FOR_COUNT(list, i, count, 10, 1) {
+cout << i << " " << count << endl;
+}
+FOR i IN (list) {
+cout << i << ' ';
+}
+cout << endl;
 
-    std::cout << "Hello, World!" << std::endl;
+std::cout << "Hello, World!" << std::endl;
 
-    END;  // нужен для культурного завершения функции
+END;  // нужен для культурного завершения функции
 }
 
 
@@ -70,7 +141,7 @@ int n = len(text);
 cout << n << endl;
 
 COUNT(n) {
-        cout << text[i];
+cout << text[i];
 }
 cout << endl;
 
@@ -78,7 +149,7 @@ END;  // нужен для культурного завершения функ�
 
 
 COUNT(argc) {
-        cout << args[i];
+cout << args[i];
 }
 
 //
@@ -137,7 +208,7 @@ COUNT(argc) {
 //}
 
 int main() {
-    int array[] = {6, 30, 50, 20, 10, 40};
+int array[] = {6, 30, 50, 20, 10, 40};
 //    int length = array_size(array);
 //    cout << length << " ";
 //    length = len(array);

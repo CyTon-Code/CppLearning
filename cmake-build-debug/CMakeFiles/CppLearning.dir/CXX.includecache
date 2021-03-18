@@ -45,6 +45,14 @@ string
 -
 
 /run/media/cytoncode/GIT/CppLearning/main.cpp
+iostream
+-
+fstream
+-
+iostream
+-
+iostream
+-
 plugin.h
 /run/media/cytoncode/GIT/CppLearning/plugin.h
 lib/syntax/python.h

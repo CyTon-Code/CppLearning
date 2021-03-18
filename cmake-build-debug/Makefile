@@ -131,56 +131,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named README
+# Target rules for targets named data_out
 
 # Build rule for target.
-README: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 README
-.PHONY : README
+data_out: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 data_out
+.PHONY : data_out
 
 # fast build rule for target.
-README/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/README.dir/build.make CMakeFiles/README.dir/build
-.PHONY : README/fast
-
-#=============================================================================
-# Target rules for targets named main
-
-# Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main
-.PHONY : main
-
-# fast build rule for target.
-main/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-.PHONY : main/fast
-
-#=============================================================================
-# Target rules for targets named build
-
-# Build rule for target.
-build: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 build
-.PHONY : build
-
-# fast build rule for target.
-build/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/build.dir/build.make CMakeFiles/build.dir/build
-.PHONY : build/fast
-
-#=============================================================================
-# Target rules for targets named CMakeLists
-
-# Build rule for target.
-CMakeLists: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeLists
-.PHONY : CMakeLists
-
-# fast build rule for target.
-CMakeLists/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CMakeLists.dir/build.make CMakeFiles/CMakeLists.dir/build
-.PHONY : CMakeLists/fast
+data_out/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_out.dir/build.make CMakeFiles/data_out.dir/build
+.PHONY : data_out/fast
 
 #=============================================================================
 # Target rules for targets named CppLearning
@@ -196,82 +157,56 @@ CppLearning/fast:
 .PHONY : CppLearning/fast
 
 #=============================================================================
-# Target rules for targets named 2
+# Target rules for targets named data_in
 
 # Build rule for target.
-2 : cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 2
-.PHONY : 2
+data_in: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 data_in
+.PHONY : data_in
 
 # fast build rule for target.
-2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2.dir/build.make CMakeFiles/2.dir/build
-.PHONY : 2/fast
+data_in/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_in.dir/build.make CMakeFiles/data_in.dir/build
+.PHONY : data_in/fast
 
 #=============================================================================
-# Target rules for targets named List
+# Target rules for targets named CMakeLists
 
 # Build rule for target.
-List: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 List
-.PHONY : List
+CMakeLists: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeLists
+.PHONY : CMakeLists
 
 # fast build rule for target.
-List/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/List.dir/build.make CMakeFiles/List.dir/build
-.PHONY : List/fast
+CMakeLists/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CMakeLists.dir/build.make CMakeFiles/CMakeLists.dir/build
+.PHONY : CMakeLists/fast
 
 #=============================================================================
-# Target rules for targets named len
+# Target rules for targets named main
 
 # Build rule for target.
-len: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 len
-.PHONY : len
+main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main
+.PHONY : main
 
 # fast build rule for target.
-len/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/len.dir/build.make CMakeFiles/len.dir/build
-.PHONY : len/fast
+main/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
 
 #=============================================================================
-# Target rules for targets named e
+# Target rules for targets named README
 
 # Build rule for target.
-e : cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 e
-.PHONY : e
+README: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 README
+.PHONY : README
 
 # fast build rule for target.
-e/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/e.dir/build.make CMakeFiles/e.dir/build
-.PHONY : e/fast
-
-#=============================================================================
-# Target rules for targets named 3
-
-# Build rule for target.
-3 : cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3
-.PHONY : 3
-
-# fast build rule for target.
-3/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3.dir/build.make CMakeFiles/3.dir/build
-.PHONY : 3/fast
-
-#=============================================================================
-# Target rules for targets named python
-
-# Build rule for target.
-python: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 python
-.PHONY : python
-
-# fast build rule for target.
-python/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/python.dir/build.make CMakeFiles/python.dir/build
-.PHONY : python/fast
+README/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/README.dir/build.make CMakeFiles/README.dir/build
+.PHONY : README/fast
 
 main.o: main.cpp.o
 
@@ -279,8 +214,8 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppLearning.dir/build.make CMakeFiles/CppLearning.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -289,8 +224,8 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppLearning.dir/build.make CMakeFiles/CppLearning.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -299,8 +234,8 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppLearning.dir/build.make CMakeFiles/CppLearning.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -311,17 +246,12 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... 2"
-	@echo "... 3"
 	@echo "... CMakeLists"
 	@echo "... CppLearning"
-	@echo "... List"
 	@echo "... README"
-	@echo "... build"
-	@echo "... e"
-	@echo "... len"
+	@echo "... data_in"
+	@echo "... data_out"
 	@echo "... main"
-	@echo "... python"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

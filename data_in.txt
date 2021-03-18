@@ -1,0 +1,12 @@
+10
+uzhorod 5 boeing
+uzhorod 4 airbus
+uzhorod 2 boeing
+uzhorod 1 Concorde
+uzhorod 3 Fighter
+uzhorod 7 Jets
+uzhorod 8 Piper
+uzhorod 6 Pilatus
+uzhorod 10 Robinson
+uzhorod 9 Cessna_Caravan
+
