@@ -20,9 +20,6 @@ struct AVIA {
     int number_flight;
     char *city;
     char *type_of_plane;
-
-    AVIA *next_AVIA;
-    AVIA *last_AVIA;
 };
 
 int main() {
@@ -30,23 +27,7 @@ int main() {
     int length;// = 10;
     fin >> length;
     cout << length << endl;
-
-    AVIA START;
-    AVIA *BEGIN = &START;
-    for (int i = 0; START.next_AVIA != NULL; i++) {
-        fin >> START.city;
-        fin >> START.number_flight;
-        fin >> START.type_of_plane;
-        START.next_AVIA = new AVIA;
-        START = *START.next_AVIA;
-    }    cout << "AVIA array_flight[length]; - She error?";START = *BEGIN ;
-    for (int i = 0; i < length; i++) {
-        fin >> START.city;
-        fin >> START.number_flight;
-        fin >> START.type_of_plane;
-        START = *START.next_AVIA;
-    }
-//    AVIA array_flight[length] = {{"", 1, ""}};   // = // не работает
+    AVIA array_flight[length] = {{"", 1, ""}};   // = // не работает
     cout << "AVIA array_flight[length]; - She error?";
 //            {
 //            {"uzhorod", 5,  "boeing"},
@@ -66,55 +47,55 @@ int main() {
 //    }
 
 
-//    for (int i = 0; i < length; i++) {
-//        fin >> array_flight[i].city;
-//        cout << array_flight[i].city << " ";
-//        fin >> array_flight[i].number_flight;
-//        cout << array_flight[i].number_flight << " ";
-//        fin >> array_flight[i].type_of_plane;
-//        cout << array_flight[i].type_of_plane << endl;
-//    }
-//
-//    // остортировано?:
-//    int if_array_sort;
-//
-//
-//    // процес сортировака массива:
-//
-//    // быгати до тех поор пока не отсорттерован масив
-//    do {
-//        if_array_sort = 0; //  массив отсортерован
-//
-//        // читаю массив - быгаю по массиві:
-//        for (int i = 0; i < length; i++) {
-//            if (array_flight[i].number_flight > array_flight[i + 1].number_flight) {
-//                // мыняю предедущий зы слудующим елменти в масивы:
-//                AVIA buf;
-//
-//                buf.type_of_plane = array_flight[i].type_of_plane;
-//
-//                buf.city = array_flight[i].city;
-//                buf.number_flight = array_flight[i].number_flight;
-//
-//                array_flight[i].city = array_flight[i + 1].city;
-//                array_flight[i].number_flight = array_flight[i + 1].number_flight;
-//                array_flight[i].type_of_plane = array_flight[i + 1].type_of_plane;
-//
-//                array_flight[i + 1].city = buf.city;
-//                array_flight[i + 1].number_flight = buf.number_flight;
-//                array_flight[i + 1].type_of_plane = buf.type_of_plane;
-//
-//                if_array_sort++; // массив не отсо=трерован
-//            }
-//        }
-//        // якщо массив отсортирован я виходжу, інакше біжу далі по коду
-//    } while (if_array_sort > 0);
-//    fout << length << endl;
-//    for (int i = 0; i < length; i++) {
-//        fout << array_flight[i].city << " ";
-//        fout << array_flight[i].number_flight << " ";
-//        fout << array_flight[i].type_of_plane << endl;
-//    }
+    for (int i = 0; i < length; i++) {
+        fin >> array_flight[i].city;
+        cout << array_flight[i].city << " ";
+        fin >> array_flight[i].number_flight;
+        cout << array_flight[i].number_flight << " ";
+        fin >> array_flight[i].type_of_plane;
+        cout << array_flight[i].type_of_plane << endl;
+    }
+
+    // остортировано?:
+    int if_array_sort;
+
+
+    // процес сортировака массива:
+
+    // быгати до тех поор пока не отсорттерован масив
+    do {
+        if_array_sort = 0; //  массив отсортерован
+
+        // читаю массив - быгаю по массиві:
+        for (int i = 0; i < length; i++) {
+            if (array_flight[i].number_flight > array_flight[i + 1].number_flight) {
+                // мыняю предедущий зы слудующим елменти в масивы:
+                AVIA buf;
+
+                buf.type_of_plane = array_flight[i].type_of_plane;
+
+                buf.city = array_flight[i].city;
+                buf.number_flight = array_flight[i].number_flight;
+
+                array_flight[i].city = array_flight[i + 1].city;
+                array_flight[i].number_flight = array_flight[i + 1].number_flight;
+                array_flight[i].type_of_plane = array_flight[i + 1].type_of_plane;
+
+                array_flight[i + 1].city = buf.city;
+                array_flight[i + 1].number_flight = buf.number_flight;
+                array_flight[i + 1].type_of_plane = buf.type_of_plane;
+
+                if_array_sort++; // массив не отсо=трерован
+            }
+        }
+        // якщо массив отсортирован я виходжу, інакше біжу далі по коду
+    } while (if_array_sort > 0);
+    fout << length << endl;
+    for (int i = 0; i < length; i++) {
+        fout << array_flight[i].city << " ";
+        fout << array_flight[i].number_flight << " ";
+        fout << array_flight[i].type_of_plane << endl;
+    }
 }
 /*
     for (int i = 0; i < length; i++)
