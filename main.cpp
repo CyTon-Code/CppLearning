@@ -1,5 +1,100 @@
 #include <iostream>
-#include <fstream>
+
+using namespace std;
+
+//#include "lib/scripts/list/len/len_error.h"
+template<typename typ>
+class List {
+private:
+    int array_length;
+    int array_count = 0;
+//    typ *array_array;
+    typ *array_begin;
+    typ *array_end;
+//    typ *array_index;
+
+//    typ *_index() {
+//        return ++this->index;
+//    }
+public:
+//    explicit
+    List(typ *array, int length) {
+        this->array_length = length;
+        this->array_count = 0;
+//        this->array_array = array;
+        this->array_begin = array;
+//        this->array_index = &array;
+        this->array_end = array + (this->array_length);
+        cout << "create List" << endl;
+    }
+
+    ~List() {
+//    this->del();
+        cout << "delete List" << endl;
+    }
+
+    typ *begin() {
+//        this->array_count = 0;
+        return this->array_begin;
+    }
+
+    typ *end() {
+        return this->array_end;
+    }
+
+//    typ *get_array() {
+//        this->array_count = 0;
+//        return this->array_array;
+//    }
+
+    int get_length() {
+        return this->array_length;
+    }
+
+    typ *index() {
+        return this->array_begin + ++this->array_count;
+//         this->array_index;
+    }
+
+//    void upd_index() {
+//        this->array_count++;
+//    }
+
+//    void refresh() {
+//        this->array_count = 0;
+//    }
+
+//    void del() {
+//        delete[] this->array_begin;
+//    }
+};
+
+//template<typename typ>
+//List<typ>::~List() {
+////        delete[]this;
+//}
+
+int main() {//(int argc, char **argv) {
+
+    int n = 3;
+    int list[] = {1, 2, 1};
+    List a = List(list, n);
+    for (auto i: a) {
+        cout << i << ' ';
+    }
+    cout << endl;
+    for (auto i = a.begin(); i < a.end(); i = a.index()) {
+        cout << *i << ' ';
+    }
+    cout << a.get_length() << endl;
+    for (int i = 0; i < n; i++) {
+        cout << list[i] << ' ';
+    }
+    cout << endl;
+//    len_error(list, n);
+    return 0;
+}
+//#include <fstream>
 /*
 .кодировка файла або программы
 .можливо ентер або ыншы символи мышают
@@ -10,7 +105,7 @@
 старим.. - річь йде про обмін, хоча в С++20 все робить, хоча ISO там
 теж матюкаєся
 */
-
+/*
 using namespace std;
 ///run/media/cytoncode/GIT/CppLearning/data_in.txt
 ofstream fout("/run/media/cytoncode/GIT/CppLearning/data_out.txt");
@@ -116,6 +211,7 @@ int main() {
 //        fout << array_flight[i].type_of_plane << endl;
 //    }
 }
+ */
 /*
     for (int i = 0; i < length; i++)
         cout << array_flight[i].city << " " << array_flight[i].number_flight <<

@@ -1,5 +1,7 @@
 /app/extra/clion/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /run/media/cytoncode/GIT/CppLearning
 -- Configuring done
+CMake Error: Cannot determine link language for target "len_error".
+CMake Error: CMake can not determine linker language for target: len_error
 CMake Error: Cannot determine link language for target "data_out".
 CMake Error: CMake can not determine linker language for target: data_out
 CMake Error: Cannot determine link language for target "data_in".

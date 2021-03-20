@@ -131,6 +131,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named len_error
+
+# Build rule for target.
+len_error: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 len_error
+.PHONY : len_error
+
+# fast build rule for target.
+len_error/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/len_error.dir/build.make CMakeFiles/len_error.dir/build
+.PHONY : len_error/fast
+
+#=============================================================================
 # Target rules for targets named main_1
 
 # Build rule for target.
@@ -291,6 +304,7 @@ help:
 	@echo "... README"
 	@echo "... data_in"
 	@echo "... data_out"
+	@echo "... len_error"
 	@echo "... main"
 	@echo "... main_1"
 	@echo "... main.o"

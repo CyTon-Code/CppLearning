@@ -1,5 +1,6 @@
 /run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles/edit_cache.dir
+/run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles/len_error.dir
 /run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles/main_1.dir
 /run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles/data_out.dir
 /run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles/CppLearning.dir

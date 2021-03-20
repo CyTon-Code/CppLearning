@@ -12,18 +12,24 @@
 */
 
 //template<class Number>
-int len_error(int value[]) {
-    int count = 0;
-    while (true) {
-
-        try {
-            value[count] = value[count];
-        } catch (...) {
-            return count;
-        }
-
-        count++;
+int len_error(int value[], int tmp_length) {
+    try { value[tmp_length] = 01; }
+    catch (...) {
+        cout << "value[tmp_length]" << endl;
     }
+    value[tmp_length - 1] = 01;
+    cout << "this err code, but not except";
+    int count = 0;
+//    while (true) {
+//
+//        try {
+//            value[count] = value[count];
+//        } catch (...) {
+//            return count;
+//        }
+//
+//        count++;
+//    }
     return count;
 }
 
