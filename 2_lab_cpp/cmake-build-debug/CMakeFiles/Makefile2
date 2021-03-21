@@ -73,8 +73,9 @@ CMAKE_BINARY_DIR = /run/media/cytoncode/GIT/CppLearning/2_lab_cpp/cmake-build-de
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/main.dir/all
 all: CMakeFiles/2_lab_cpp.dir/all
+all: CMakeFiles/main.dir/all
+all: CMakeFiles/in.dir/all
 
 .PHONY : all
 
@@ -84,10 +85,38 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/main.dir/clean
 clean: CMakeFiles/2_lab_cpp.dir/clean
+clean: CMakeFiles/main.dir/clean
+clean: CMakeFiles/in.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/2_lab_cpp.dir
+
+# All Build rule for target.
+CMakeFiles/2_lab_cpp.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_lab_cpp.dir/build.make CMakeFiles/2_lab_cpp.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_lab_cpp.dir/build.make CMakeFiles/2_lab_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/run/media/cytoncode/GIT/CppLearning/2_lab_cpp/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target 2_lab_cpp"
+.PHONY : CMakeFiles/2_lab_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/2_lab_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/cytoncode/GIT/CppLearning/2_lab_cpp/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/2_lab_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/cytoncode/GIT/CppLearning/2_lab_cpp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/2_lab_cpp.dir/rule
+
+# Convenience name for target.
+2_lab_cpp: CMakeFiles/2_lab_cpp.dir/rule
+
+.PHONY : 2_lab_cpp
+
+# clean rule for target.
+CMakeFiles/2_lab_cpp.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_lab_cpp.dir/build.make CMakeFiles/2_lab_cpp.dir/clean
+.PHONY : CMakeFiles/2_lab_cpp.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/main.dir
@@ -117,31 +146,31 @@ CMakeFiles/main.dir/clean:
 .PHONY : CMakeFiles/main.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/2_lab_cpp.dir
+# Target rules for target CMakeFiles/in.dir
 
 # All Build rule for target.
-CMakeFiles/2_lab_cpp.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_lab_cpp.dir/build.make CMakeFiles/2_lab_cpp.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_lab_cpp.dir/build.make CMakeFiles/2_lab_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/run/media/cytoncode/GIT/CppLearning/2_lab_cpp/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target 2_lab_cpp"
-.PHONY : CMakeFiles/2_lab_cpp.dir/all
+CMakeFiles/in.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/in.dir/build.make CMakeFiles/in.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/in.dir/build.make CMakeFiles/in.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/run/media/cytoncode/GIT/CppLearning/2_lab_cpp/cmake-build-debug/CMakeFiles --progress-num= "Built target in"
+.PHONY : CMakeFiles/in.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/2_lab_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/cytoncode/GIT/CppLearning/2_lab_cpp/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/2_lab_cpp.dir/all
+CMakeFiles/in.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/cytoncode/GIT/CppLearning/2_lab_cpp/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/2_lab_cpp.dir/rule
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/in.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/cytoncode/GIT/CppLearning/2_lab_cpp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/in.dir/rule
 
 # Convenience name for target.
-2_lab_cpp: CMakeFiles/2_lab_cpp.dir/rule
+in: CMakeFiles/in.dir/rule
 
-.PHONY : 2_lab_cpp
+.PHONY : in
 
 # clean rule for target.
-CMakeFiles/2_lab_cpp.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_lab_cpp.dir/build.make CMakeFiles/2_lab_cpp.dir/clean
-.PHONY : CMakeFiles/2_lab_cpp.dir/clean
+CMakeFiles/in.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/in.dir/build.make CMakeFiles/in.dir/clean
+.PHONY : CMakeFiles/in.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

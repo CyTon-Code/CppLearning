@@ -1,0 +1,6 @@
+/app/extra/clion/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /run/media/cytoncode/GIT/CppLearning/2_lab_cpp
+-- Configuring done
+CMake Error: Cannot determine link language for target "in".
+CMake Error: CMake can not determine linker language for target: in
+-- Generating done
+CMake Generate step failed.  Build files cannot be regenerated correctly.

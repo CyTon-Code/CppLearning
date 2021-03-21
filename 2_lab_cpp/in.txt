@@ -1,0 +1,10 @@
+uzhorod 5 boing
+mukachevo 6  airbus
+solotvino 2 Concorde
+lviv 1 Fighter
+kyiv 7 Jets
+kharkiv 9 Piper
+odessa 8 Pilatus
+crimea 3 Robinson
+sevastopo 4 Cessna
+frankivsk 10 Caravan

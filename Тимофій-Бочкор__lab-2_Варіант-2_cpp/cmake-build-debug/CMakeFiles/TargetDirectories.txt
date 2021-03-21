@@ -1,0 +1,3 @@
+/run/media/cytoncode/GIT/CppLearning/Тимофій-Бочкор__lab-2_Варіант-2_cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/run/media/cytoncode/GIT/CppLearning/Тимофій-Бочкор__lab-2_Варіант-2_cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
+/run/media/cytoncode/GIT/CppLearning/Тимофій-Бочкор__lab-2_Варіант-2_cpp/cmake-build-debug/CMakeFiles/___lab_2__2_cpp.dir

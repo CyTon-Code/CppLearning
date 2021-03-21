@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/run/media/cytoncode/GIT/CppLearning/2_lab_cpp/main.cpp
+iostream
+-
+fstream
+/run/media/cytoncode/GIT/CppLearning/2_lab_cpp/fstream
+
