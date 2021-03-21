@@ -6,11 +6,13 @@ using namespace std;
 template<typename typ>
 class List {
 private:
-    int array_length;
-    int array_count = 0;
-//    typ *array_array;
+    int stop;
+    int step;
+    int start;
+
     typ *array_begin;
-    typ *array_end;
+//    typ *array_array;
+//    typ *array_end;
 //    typ *array_index;
 
 //    typ *_index() {
@@ -19,50 +21,73 @@ private:
 public:
 //    explicit
     List(typ *array, int length) {
-        this->array_length = length;
-        this->array_count = 0;
-//        this->array_array = array;
+        this->stop = length;
+        this->start = 0;
+        this->step = 1;
+
         this->array_begin = array;
-//        this->array_index = &array;
-        this->array_end = array + (this->array_length);
+//        this->array_end = this->array_begin + (this->stop);
+
         cout << "create List" << endl;
     }
 
     ~List() {
-//    this->del();
+//    del();
         cout << "delete List" << endl;
     }
 
     typ *begin() {
-//        this->array_count = 0;
+        this->start = 0;
+//        refresh()
         return this->array_begin;
     }
 
     typ *end() {
-        return this->array_end;
+        return this->array_begin + this->get_len();
     }
 
 //    typ *get_array() {
 //        this->array_count = 0;
-//        return this->array_array;
+//        return this->array_begin;
 //    }
 
-    int get_length() {
-        return this->array_length;
+    int get_len() {
+        return this->stop;
     }
 
     typ *index() {
-        return this->array_begin + ++this->array_count;
+        this->next();
+//        next();
+        return this->array_begin + this->start;
 //         this->array_index;
     }
 
+//    void refresh() {
+////        this->start = 0;
+//        this->stop = set_array_size(array_begin);
+//
+//    }
+
+private:
+    void next() {
+
+        this->start += this->step;
+    }
+
+//    template<typename type, size_t n>
+//    inline void set_array_size(const type (&array)[n]) {
+//        this->stop = n;
+//    }
+
+//    template<typename T, size_t n>
+//    inline size_t array_size(const T (&arr)[n]) {
+//        return n;
+//    }
 //    void upd_index() {
 //        this->array_count++;
 //    }
 
-//    void refresh() {
-//        this->array_count = 0;
-//    }
+
 
 //    void del() {
 //        delete[] this->array_begin;
@@ -77,20 +102,23 @@ public:
 int main() {//(int argc, char **argv) {
 
     int n = 3;
-    int list[] = {1, 2, 1};
+    int list[] = {1, 2, 3};
     List a = List(list, n);
     for (auto i: a) {
         cout << i << ' ';
     }
     cout << endl;
+
     for (auto i = a.begin(); i < a.end(); i = a.index()) {
         cout << *i << ' ';
     }
-    cout << a.get_length() << endl;
+    cout << endl;
+
     for (int i = 0; i < n; i++) {
         cout << list[i] << ' ';
     }
     cout << endl;
+
 //    len_error(list, n);
     return 0;
 }

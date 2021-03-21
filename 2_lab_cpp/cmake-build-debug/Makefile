@@ -68,10 +68,10 @@ RM = /app/extra/clion/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /run/media/cytoncode/GIT/CppLearning
+CMAKE_SOURCE_DIR = /run/media/cytoncode/GIT/CppLearning/2_lab_cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /run/media/cytoncode/GIT/CppLearning/cmake-build-debug
+CMAKE_BINARY_DIR = /run/media/cytoncode/GIT/CppLearning/2_lab_cpp/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles /run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/cytoncode/GIT/CppLearning/2_lab_cpp/cmake-build-debug/CMakeFiles /run/media/cytoncode/GIT/CppLearning/2_lab_cpp/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/cytoncode/GIT/CppLearning/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /run/media/cytoncode/GIT/CppLearning/2_lab_cpp/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -131,32 +131,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named CppLearning
-
-# Build rule for target.
-CppLearning: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CppLearning
-.PHONY : CppLearning
-
-# fast build rule for target.
-CppLearning/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppLearning.dir/build.make CMakeFiles/CppLearning.dir/build
-.PHONY : CppLearning/fast
-
-#=============================================================================
-# Target rules for targets named CMakeLists
-
-# Build rule for target.
-CMakeLists: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeLists
-.PHONY : CMakeLists
-
-# fast build rule for target.
-CMakeLists/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CMakeLists.dir/build.make CMakeFiles/CMakeLists.dir/build
-.PHONY : CMakeLists/fast
-
-#=============================================================================
 # Target rules for targets named main
 
 # Build rule for target.
@@ -170,17 +144,17 @@ main/fast:
 .PHONY : main/fast
 
 #=============================================================================
-# Target rules for targets named README
+# Target rules for targets named 2_lab_cpp
 
 # Build rule for target.
-README: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 README
-.PHONY : README
+2_lab_cpp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 2_lab_cpp
+.PHONY : 2_lab_cpp
 
 # fast build rule for target.
-README/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/README.dir/build.make CMakeFiles/README.dir/build
-.PHONY : README/fast
+2_lab_cpp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_lab_cpp.dir/build.make CMakeFiles/2_lab_cpp.dir/build
+.PHONY : 2_lab_cpp/fast
 
 main.o: main.cpp.o
 
@@ -188,8 +162,8 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppLearning.dir/build.make CMakeFiles/CppLearning.dir/main.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_lab_cpp.dir/build.make CMakeFiles/2_lab_cpp.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -198,8 +172,8 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppLearning.dir/build.make CMakeFiles/CppLearning.dir/main.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_lab_cpp.dir/build.make CMakeFiles/2_lab_cpp.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -208,8 +182,8 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppLearning.dir/build.make CMakeFiles/CppLearning.dir/main.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_lab_cpp.dir/build.make CMakeFiles/2_lab_cpp.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -220,9 +194,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... CMakeLists"
-	@echo "... CppLearning"
-	@echo "... README"
+	@echo "... 2_lab_cpp"
 	@echo "... main"
 	@echo "... main.o"
 	@echo "... main.i"
