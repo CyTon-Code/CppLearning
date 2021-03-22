@@ -1,29 +1,48 @@
-//#include <iostream>
+#include <iostream>
 
-//using namespace std;
+using namespace std;
+
+class Data {
+private:
+    string first_name;
+    unsigned int number_group;
+    int *Uspishnist;// typ??? - массив оценок?
+};
+
+void interface();
+
+void save_data(Data data);
+
+Data read_data();
+
 
 //int main(int argc, char **args) {
 int main() {
-    auto база = читать_базу();
-    интерфейс();
-    сохранить_базу(база);
+    auto data = read_data();
+    interface();
+    save_data(data);
     return 0;
 }
-auto читать_базу(){
-    return база;
+
+Data read_data() {
+//    кодировка файлов: UTF-8 - если символы за пределом ASCII отсечь и на свалку.
+    return data;
 }
-void сохранить_базу(база){
+
+void save_data(auto data) {
 
 }
-void интерфейс(){
-    while(true){
-        case: exit-break;
-        case: сохранить_базу();
-        case: читать_базу();
-        case: вывести_на_екран_базу();
-        case: сортировать_базу_по_номерам();
-        case: del obj;
-        case: add obj;
-        case: найти obj;
+
+void interface() {
+    while (true) {
+        break;//temporary
+//        case: exit-break;
+//        case: save_data();
+//        case: read_data();
+//        case: echo_data();
+//        case: sort_data(); //сортировать_базу_по_номерам();
+//        case: search_obj;
+//        case: del obj;
+//        case: add obj;
     }
 }
