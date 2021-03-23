@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerExplorerSettingsProvider">
+    <option name="enabled" value="false" />
+    <option name="localCompilerSettings">
+      <map>
+        <entry>
+          <key>
+            <LocalCompilerPath>
+              <option name="path" value="/usr/bin/c++" />
+            </LocalCompilerPath>
+          </key>
+          <value>
+            <LocalCompilerSettings>
+              <option name="name" value="GCC" />
+              <option name="version" value="ÐÑÐ¿Ð¾Ð»ÑÐ·ÑÑÑÑÑ Ð²Ð½ÑÑÑÐµÐ½Ð½Ð¸Ðµ ÑÐ¿ÐµÑÐ¸ÑÐ¸ÐºÐ°ÑÐ¸Ð¸. COLLECT_GCC=/usr/bin/c++ COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-unknown-linux-gnu/10.2.0/lto-wrapper Ð¦ÐµÐ»ÐµÐ²Ð°Ñ Ð°ÑÑÐ¸ÑÐµÐºÑÑÑÐ°: x86_64-unknown-linux-gnu ÐÐ°ÑÐ°Ð¼ÐµÑÑÑ ÐºÐ¾Ð½ÑÐ¸Ð³ÑÑÐ°ÑÐ¸Ð¸: ../configure --prefix=/usr --exec-prefix=/usr --bindir=/usr/bin --sbindir=/usr/bin --sysconfdir=/etc --datadir=/usr/share --includedir=/usr/include --libdir=/usr/lib --libexecdir=/usr/libexec --localstatedir=/var --sharedstatedir=/usr/com --mandir=/usr/share/man --infodir=/usr/share/info --enable-deterministic-archives --enable-shared --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu lt_cv_sys_lib_dlsearch_path_spec=/usr/lib/x86_64-linux-gnu --target=x86_64-unknown-linux-gnu --disable-multilib --enable-multiarch --disable-bootstrap --with-build-sysroot=/cross-installation --enable-languages=c,c++,fortran,objc,obj-c++ --enable-default-pie --enable-default-ssp --with-isl --disable-libssp --enable-linker-build-id --disable-libstdcxx-filesystem-ts --enable-cet host_configargs=lt_cv_sys_lib_dlsearch_path_spec=/usr/lib/x86_64-linux-gnu target_configargs=lt_cv_sys_lib_dlsearch_path_spec=/usr/lib/x86_64-linux-gnu ÐÐ¾Ð´ÐµÐ»Ñ Ð¼Ð½Ð¾Ð³Ð¾Ð¿Ð¾ÑÐ¾ÑÐ½Ð¾ÑÑÐ¸: posix Supported LTO compression algorithms: zlib gcc Ð²ÐµÑÑÐ¸Ñ 10.2.0 (GCC)  " />
+              <option name="target" value="ÐÑÐ¿Ð¾Ð»ÑÐ·ÑÑÑÑÑ Ð²Ð½ÑÑÑÐµÐ½Ð½Ð¸Ðµ ÑÐ¿ÐµÑÐ¸ÑÐ¸ÐºÐ°ÑÐ¸Ð¸. COLLECT_GCC=/usr/bin/c++ COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-unknown-linux-gnu/10.2.0/lto-wrapper Ð¦ÐµÐ»ÐµÐ²Ð°Ñ Ð°ÑÑÐ¸ÑÐµÐºÑÑÑÐ°: x86_64-unknown-linux-gnu ÐÐ°ÑÐ°Ð¼ÐµÑÑÑ ÐºÐ¾Ð½ÑÐ¸Ð³ÑÑÐ°ÑÐ¸Ð¸: ../configure --prefix=/usr --exec-prefix=/usr --bindir=/usr/bin --sbindir=/usr/bin --sysconfdir=/etc --datadir=/usr/share --includedir=/usr/include --libdir=/usr/lib --libexecdir=/usr/libexec --localstatedir=/var --sharedstatedir=/usr/com --mandir=/usr/share/man --infodir=/usr/share/info --enable-deterministic-archives --enable-shared --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu lt_cv_sys_lib_dlsearch_path_spec=/usr/lib/x86_64-linux-gnu --target=x86_64-unknown-linux-gnu --disable-multilib --enable-multiarch --disable-bootstrap --with-build-sysroot=/cross-installation --enable-languages=c,c++,fortran,objc,obj-c++ --enable-default-pie --enable-default-ssp --with-isl --disable-libssp --enable-linker-build-id --disable-libstdcxx-filesystem-ts --enable-cet host_configargs=lt_cv_sys_lib_dlsearch_path_spec=/usr/lib/x86_64-linux-gnu target_configargs=lt_cv_sys_lib_dlsearch_path_spec=/usr/lib/x86_64-linux-gnu ÐÐ¾Ð´ÐµÐ»Ñ Ð¼Ð½Ð¾Ð³Ð¾Ð¿Ð¾ÑÐ¾ÑÐ½Ð¾ÑÑÐ¸: posix Supported LTO compression algorithms: zlib gcc Ð²ÐµÑÑÐ¸Ñ 10.2.0 (GCC)  " />
+            </LocalCompilerSettings>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="initialNoticeShown" value="true" />
+  </component>
+</project>

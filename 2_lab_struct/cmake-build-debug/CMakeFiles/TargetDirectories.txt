@@ -1,0 +1,6 @@
+/run/media/cytoncode/GIT/CppLearning/2_lab_struct/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/run/media/cytoncode/GIT/CppLearning/2_lab_struct/cmake-build-debug/CMakeFiles/2_lab_struct.dir
+/run/media/cytoncode/GIT/CppLearning/2_lab_struct/cmake-build-debug/CMakeFiles/edit_cache.dir
+/run/media/cytoncode/GIT/CppLearning/2_lab_struct/cmake-build-debug/CMakeFiles/file_in.dir
+/run/media/cytoncode/GIT/CppLearning/2_lab_struct/cmake-build-debug/CMakeFiles/main.dir
+/run/media/cytoncode/GIT/CppLearning/2_lab_struct/cmake-build-debug/CMakeFiles/file_out.dir
