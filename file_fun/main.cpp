@@ -6,14 +6,15 @@
 int main() {
     string path = "in.txt";
     FileRead file;
-    file.read(path);
-    edit(path, "Hello, World!");
-    edit(path, "Hello, World!");
+    file.open(path);
+    cout << file.read(path) << endl;
+//    edit(path, "Hello, World!");
+//    edit(path, "Hello, World!");
     string a;
-    a = read(path, a);
-    cout << a;
-    a = read(path, a);
-    cout << a;
-    edit(path, a);
+    a = file.read(path, a);
+    cout << a << endl;
+    a = file.read(path, a);
+    cout << a << endl;
+//    edit(path, a);
     return 0;
 }

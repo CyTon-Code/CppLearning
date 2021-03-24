@@ -5,8 +5,8 @@
 #ifndef FILE_FUN_LIBRARY_H
 #define FILE_FUN_LIBRARY_H
 
-#define False false
-#define True true
+//#define False false
+//#define True true
 
 #include <iostream>
 
