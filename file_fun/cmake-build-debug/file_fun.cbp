@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="file_fun"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="file">
+				<Option output="/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/file" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 file"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="file/fast">
+				<Option output="/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/file" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 file/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="file_read_n">
+				<Option output="/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/file_read_n" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 file_read_n"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="file_read_n/fast">
+				<Option output="/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/file_read_n" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 file_read_n/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="file_read">
+				<Option output="/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/file_read" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 file_read"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="file_read/fast">
+				<Option output="/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/file_read" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 file_read/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CMakeLists">
+				<Option output="/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/CMakeLists" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 CMakeLists"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CMakeLists/fast">
+				<Option output="/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/CMakeLists" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 CMakeLists/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="file_write">
+				<Option output="/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/file_write" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 file_write"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="file_write/fast">
+				<Option output="/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/file_write" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 file_write/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="check_file_open">
+				<Option output="/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/check_file_open" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 check_file_open"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="check_file_open/fast">
+				<Option output="/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/check_file_open" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 check_file_open/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main">
+				<Option output="/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="file_fun">
+				<Option output="/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/file_fun" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 file_fun"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="file_fun/fast">
+				<Option output="/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/file_fun" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 file_fun/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="error_classes">
+				<Option output="/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/error_classes" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 error_classes"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="error_classes/fast">
+				<Option output="/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/error_classes" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 error_classes/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="library">
+				<Option output="/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/library" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 library"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="library/fast">
+				<Option output="/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/library" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 library/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="in">
+				<Option output="/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/in" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 in"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="in/fast">
+				<Option output="/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/in" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 in/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="file_clear">
+				<Option output="/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/file_clear" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 file_clear"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="file_clear/fast">
+				<Option output="/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/file_clear" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 file_clear/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="file_edit">
+				<Option output="/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/file_edit" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 file_edit"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="file_edit/fast">
+				<Option output="/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/file_edit" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 file_edit/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/run/media/cytoncode/GIT/CppLearning/file_fun/CMakeLists.txt">
+			<Option target="CMakeLists"/>
+		</Unit>
+		<Unit filename="/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/in.txt">
+			<Option target="in"/>
+		</Unit>
+		<Unit filename="/run/media/cytoncode/GIT/CppLearning/file_fun/libs/check_file_open.h">
+			<Option target="check_file_open"/>
+		</Unit>
+		<Unit filename="/run/media/cytoncode/GIT/CppLearning/file_fun/libs/error_classes.h">
+			<Option target="error_classes"/>
+		</Unit>
+		<Unit filename="/run/media/cytoncode/GIT/CppLearning/file_fun/libs/file.h">
+			<Option target="file"/>
+		</Unit>
+		<Unit filename="/run/media/cytoncode/GIT/CppLearning/file_fun/libs/file_clear.h">
+			<Option target="file_clear"/>
+		</Unit>
+		<Unit filename="/run/media/cytoncode/GIT/CppLearning/file_fun/libs/file_edit.h">
+			<Option target="file_edit"/>
+		</Unit>
+		<Unit filename="/run/media/cytoncode/GIT/CppLearning/file_fun/libs/file_read.h">
+			<Option target="file_read"/>
+		</Unit>
+		<Unit filename="/run/media/cytoncode/GIT/CppLearning/file_fun/libs/file_read_n.h">
+			<Option target="file_read_n"/>
+		</Unit>
+		<Unit filename="/run/media/cytoncode/GIT/CppLearning/file_fun/libs/file_write.h">
+			<Option target="file_write"/>
+		</Unit>
+		<Unit filename="/run/media/cytoncode/GIT/CppLearning/file_fun/libs/library.h">
+			<Option target="library"/>
+		</Unit>
+		<Unit filename="/run/media/cytoncode/GIT/CppLearning/file_fun/main.cpp">
+			<Option target="main"/>
+			<Option target="file_fun"/>
+		</Unit>
+		<Unit filename="/run/media/cytoncode/GIT/CppLearning/file_fun/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

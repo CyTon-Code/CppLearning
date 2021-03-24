@@ -1,0 +1,10 @@
+//    ofstream fout;
+//    string path = "in.txt";
+//    write(path, "Hello, World!");
+//    clear(path);
+//    edit(path, "Hello, World!");
+//    fout.open(path, ofstream::app);
+//    cout << fout.is_open() << endl;
+//    fout << "Hello, World!";/// << endl;
+//    fout.close();
+

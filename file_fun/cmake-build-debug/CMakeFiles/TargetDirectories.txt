@@ -1,0 +1,15 @@
+/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/CMakeFiles/file.dir
+/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/CMakeFiles/file_read_n.dir
+/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/CMakeFiles/file_read.dir
+/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/CMakeFiles/CMakeLists.dir
+/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/CMakeFiles/file_write.dir
+/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/CMakeFiles/check_file_open.dir
+/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/CMakeFiles/main.dir
+/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/CMakeFiles/file_fun.dir
+/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/CMakeFiles/error_classes.dir
+/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/CMakeFiles/library.dir
+/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/CMakeFiles/edit_cache.dir
+/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/CMakeFiles/in.dir
+/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/CMakeFiles/file_clear.dir
+/run/media/cytoncode/GIT/CppLearning/file_fun/cmake-build-debug/CMakeFiles/file_edit.dir
