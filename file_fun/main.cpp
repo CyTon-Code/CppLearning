@@ -5,7 +5,7 @@
 //  ПО ССИЛЦЫ ПАТЧ
 int main() {
     string path = "in.txt";
-    File file;
+    FileRead file;
     file.read(path);
     edit(path, "Hello, World!");
     edit(path, "Hello, World!");
